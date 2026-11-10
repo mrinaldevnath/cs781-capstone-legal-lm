@@ -1,0 +1,47 @@
+{
+ "name": "e_small_gpt_55m",
+ "model": {
+  "vocab": 32768,
+  "d": 512,
+  "n_heads": 8,
+  "head_dim": 64,
+  "ffn": 1536,
+  "rope_base": 10000.0,
+  "rope_len": 2048,
+  "qchunk": 256,
+  "ckpt": true,
+  "kind": "decoder",
+  "layout": [
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha",
+   "mha"
+  ]
+ },
+ "train": {
+  "micro_batch": 8,
+  "global_batch_tokens": 131072,
+  "lr": 0.0006,
+  "warmup": 300,
+  "decay_frac": 0.2,
+  "wd": 0.1,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "clip": 1.0,
+  "budget_tokens": 1000000000000.0,
+  "eval_every": 500,
+  "eval_windows": 128,
+  "ckpt_minutes": 30,
+  "seed": 1234,
+  "mix": null,
+  "compile": false
+ }
+}

@@ -1,0 +1,8 @@
+torch>=2.1
+numpy
+scipy
+scikit-learn
+huggingface_hub
+ijson
+bert-score
+rouge-score

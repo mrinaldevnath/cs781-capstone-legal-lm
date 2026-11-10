@@ -1,0 +1,506 @@
+[
+ {
+  "id": "A01",
+  "tag": "A01_lorma",
+  "model": "a",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory technique: multiplicative low-rank update (lr 2e-4, stable in Phase 3)"
+ },
+ {
+  "id": "A02",
+  "tag": "A02_adalora",
+  "model": "a",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "A03",
+  "tag": "A03_adapter",
+  "model": "a",
+  "tech": "Houlsby adapter",
+  "change": "-",
+  "group": "T",
+  "question": "bottleneck adapters"
+ },
+ {
+  "id": "A04",
+  "tag": "A04_bitfit",
+  "model": "a",
+  "tech": "BitFit (norm gains)",
+  "change": "-",
+  "group": "T",
+  "question": "sparse tuning: only the normalisation gains"
+ },
+ {
+  "id": "A05",
+  "tag": "A05_gradual",
+  "model": "a",
+  "tech": "Gradual unfreezing",
+  "change": "-",
+  "group": "T",
+  "question": "layer freezing/unfreezing: head first, then blocks top-down (10%-60% of the steps)"
+ },
+ {
+  "id": "A06",
+  "tag": "A06_partial",
+  "model": "a",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "A07",
+  "tag": "A07_full",
+  "model": "a",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "A08",
+  "tag": "A08_lora",
+  "model": "a",
+  "tech": "LoRA r16",
+  "change": "-",
+  "group": "X",
+  "question": "additive low-rank reference for LoRMA"
+ },
+ {
+  "id": "B01",
+  "tag": "B01_lorma",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory technique: multiplicative low-rank update (lr 2e-4, stable in Phase 3)"
+ },
+ {
+  "id": "B02",
+  "tag": "B02_adalora",
+  "model": "b",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "B03",
+  "tag": "B03_adapter",
+  "model": "b",
+  "tech": "Houlsby adapter",
+  "change": "-",
+  "group": "T",
+  "question": "bottleneck adapters"
+ },
+ {
+  "id": "B04",
+  "tag": "B04_bitfit",
+  "model": "b",
+  "tech": "BitFit (norm gains)",
+  "change": "-",
+  "group": "T",
+  "question": "sparse tuning: only the normalisation gains"
+ },
+ {
+  "id": "B05",
+  "tag": "B05_gradual",
+  "model": "b",
+  "tech": "Gradual unfreezing",
+  "change": "-",
+  "group": "T",
+  "question": "layer freezing/unfreezing: head first, then blocks top-down (10%-60% of the steps)"
+ },
+ {
+  "id": "B06",
+  "tag": "B06_partial",
+  "model": "b",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "B07",
+  "tag": "B07_full",
+  "model": "b",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "B08",
+  "tag": "B08_lora",
+  "model": "b",
+  "tech": "LoRA r16",
+  "change": "-",
+  "group": "X",
+  "question": "additive low-rank reference for LoRMA"
+ },
+ {
+  "id": "B11",
+  "tag": "B11_rep_ref",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "8k-doc subset (reference)",
+  "group": "R",
+  "question": "reference for the representation study"
+ },
+ {
+  "id": "B12",
+  "tag": "B12_rep_last1",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "last 512 tokens only",
+  "group": "R",
+  "question": "how much of the end is needed?"
+ },
+ {
+  "id": "B13",
+  "tag": "B13_rep_last4",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "last 2,048 tokens (4 chunks)",
+  "group": "R",
+  "question": "does more of the end help?"
+ },
+ {
+  "id": "B14",
+  "tag": "B14_rep_first2",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "first 1,024 tokens",
+  "group": "R",
+  "question": "beginning (parties, facts, history) instead of the end"
+ },
+ {
+  "id": "B15",
+  "tag": "B15_rep_firstlast",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "first 512 + last 512",
+  "group": "R",
+  "question": "beginning + end"
+ },
+ {
+  "id": "B16",
+  "tag": "B16_rep_spread8",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "whole document: 8 chunks spread evenly",
+  "group": "R",
+  "question": "hierarchical whole-document representation; attention shows which parts are used"
+ },
+ {
+  "id": "B17",
+  "tag": "B17_rep_meanpool",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "mean pooling of chunks",
+  "group": "R",
+  "question": "learned attention vs mean pooling"
+ },
+ {
+  "id": "B18",
+  "tag": "B18_rep_noweights",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "no class weights",
+  "group": "R",
+  "question": "class-imbalance handling"
+ },
+ {
+  "id": "C01",
+  "tag": "C01_lorma",
+  "model": "c",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory technique: multiplicative low-rank update (lr 2e-4, stable in Phase 3)"
+ },
+ {
+  "id": "C02",
+  "tag": "C02_adalora",
+  "model": "c",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "C03",
+  "tag": "C03_adapter",
+  "model": "c",
+  "tech": "Houlsby adapter",
+  "change": "-",
+  "group": "T",
+  "question": "bottleneck adapters"
+ },
+ {
+  "id": "C04",
+  "tag": "C04_bitfit",
+  "model": "c",
+  "tech": "BitFit (norm gains)",
+  "change": "-",
+  "group": "T",
+  "question": "sparse tuning: only the normalisation gains"
+ },
+ {
+  "id": "C05",
+  "tag": "C05_gradual",
+  "model": "c",
+  "tech": "Gradual unfreezing",
+  "change": "-",
+  "group": "T",
+  "question": "layer freezing/unfreezing: head first, then blocks top-down (10%-60% of the steps)"
+ },
+ {
+  "id": "C06",
+  "tag": "C06_partial",
+  "model": "c",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "C07",
+  "tag": "C07_full",
+  "model": "c",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "C08",
+  "tag": "C08_lora",
+  "model": "c",
+  "tech": "LoRA r16",
+  "change": "-",
+  "group": "X",
+  "question": "additive low-rank reference for LoRMA"
+ },
+ {
+  "id": "D01",
+  "tag": "D01_lorma",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory technique: multiplicative low-rank update (lr 2e-4, stable in Phase 3)"
+ },
+ {
+  "id": "D02",
+  "tag": "D02_adalora",
+  "model": "d",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "D03",
+  "tag": "D03_adapter",
+  "model": "d",
+  "tech": "Houlsby adapter",
+  "change": "-",
+  "group": "T",
+  "question": "bottleneck adapters"
+ },
+ {
+  "id": "D04",
+  "tag": "D04_bitfit",
+  "model": "d",
+  "tech": "BitFit (norm gains)",
+  "change": "-",
+  "group": "T",
+  "question": "sparse tuning: only the normalisation gains"
+ },
+ {
+  "id": "D05",
+  "tag": "D05_gradual",
+  "model": "d",
+  "tech": "Gradual unfreezing",
+  "change": "-",
+  "group": "T",
+  "question": "layer freezing/unfreezing: head first, then blocks top-down (10%-60% of the steps)"
+ },
+ {
+  "id": "D06",
+  "tag": "D06_partial",
+  "model": "d",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "D07",
+  "tag": "D07_full",
+  "model": "d",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "D08",
+  "tag": "D08_lora",
+  "model": "d",
+  "tech": "LoRA r16",
+  "change": "-",
+  "group": "X",
+  "question": "additive low-rank reference for LoRMA"
+ },
+ {
+  "id": "D11",
+  "tag": "D11_rep_ref",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "8k-doc subset (reference)",
+  "group": "R",
+  "question": "reference for the representation study"
+ },
+ {
+  "id": "D12",
+  "tag": "D12_rep_last1",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "last 512 tokens only",
+  "group": "R",
+  "question": "how much of the end is needed?"
+ },
+ {
+  "id": "D13",
+  "tag": "D13_rep_last4",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "last 2,048 tokens (4 chunks)",
+  "group": "R",
+  "question": "does more of the end help?"
+ },
+ {
+  "id": "D14",
+  "tag": "D14_rep_first2",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "first 1,024 tokens",
+  "group": "R",
+  "question": "beginning (parties, facts, history) instead of the end"
+ },
+ {
+  "id": "D15",
+  "tag": "D15_rep_firstlast",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "first 512 + last 512",
+  "group": "R",
+  "question": "beginning + end"
+ },
+ {
+  "id": "D16",
+  "tag": "D16_rep_spread8",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "whole document: 8 chunks spread evenly",
+  "group": "R",
+  "question": "hierarchical whole-document representation; attention shows which parts are used"
+ },
+ {
+  "id": "D17",
+  "tag": "D17_rep_meanpool",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "mean pooling of chunks",
+  "group": "R",
+  "question": "learned attention vs mean pooling"
+ },
+ {
+  "id": "D18",
+  "tag": "D18_rep_noweights",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "no class weights",
+  "group": "R",
+  "question": "class-imbalance handling"
+ },
+ {
+  "id": "E01",
+  "tag": "E01_lorma",
+  "model": "e",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory technique: multiplicative low-rank update (lr 2e-4, stable in Phase 3)"
+ },
+ {
+  "id": "E02",
+  "tag": "E02_adalora",
+  "model": "e",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "E03",
+  "tag": "E03_adapter",
+  "model": "e",
+  "tech": "Houlsby adapter",
+  "change": "-",
+  "group": "T",
+  "question": "bottleneck adapters"
+ },
+ {
+  "id": "E04",
+  "tag": "E04_bitfit",
+  "model": "e",
+  "tech": "BitFit (norm gains)",
+  "change": "-",
+  "group": "T",
+  "question": "sparse tuning: only the normalisation gains"
+ },
+ {
+  "id": "E05",
+  "tag": "E05_gradual",
+  "model": "e",
+  "tech": "Gradual unfreezing",
+  "change": "-",
+  "group": "T",
+  "question": "layer freezing/unfreezing: head first, then blocks top-down (10%-60% of the steps)"
+ },
+ {
+  "id": "E06",
+  "tag": "E06_partial",
+  "model": "e",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "E07",
+  "tag": "E07_full",
+  "model": "e",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "E08",
+  "tag": "E08_lora",
+  "model": "e",
+  "tech": "LoRA r16",
+  "change": "-",
+  "group": "X",
+  "question": "additive low-rank reference for LoRMA"
+ }
+]

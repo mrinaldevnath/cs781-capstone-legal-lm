@@ -1,0 +1,154 @@
+[
+ {
+  "tag": "B01_full",
+  "model": "b",
+  "tech": "Full FT",
+  "args": "--method full --lr 3e-5",
+  "train_min": 150,
+  "question": "full fine-tuning of the GPT model; also the distillation teacher"
+ },
+ {
+  "tag": "E02_kd",
+  "model": "e",
+  "tech": "Knowledge distillation (B01 -> E)",
+  "args": "--method full --lr 5e-5 --teacher {MODEL_DIR}/B01_full.pt --teacher_ckpt {CKPT:b} --kd_alpha 0.5 --kd_T 1",
+  "train_min": 150,
+  "question": "does the 58M student keep the 110M teacher's retrieval quality?"
+ },
+ {
+  "tag": "E03_full",
+  "model": "e",
+  "tech": "Full FT (no teacher)",
+  "args": "--method full --lr 5e-5",
+  "train_min": 150,
+  "question": "the student without a teacher"
+ },
+ {
+  "tag": "D04_full",
+  "model": "d",
+  "tech": "Full FT",
+  "args": "--method full --lr 3e-5",
+  "train_min": 230,
+  "question": "full fine-tuning of the GDN/MLA hybrid"
+ },
+ {
+  "tag": "D05_lorma",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4",
+  "train_min": 230,
+  "question": "compulsory LoRMA"
+ },
+ {
+  "tag": "B06_lorma",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4",
+  "train_min": 230,
+  "question": "LoRMA on the GPT model"
+ },
+ {
+  "tag": "B07_ia3",
+  "model": "b",
+  "tech": "IA3",
+  "args": "--method ia3 --lr 3e-3",
+  "train_min": 230,
+  "question": "IA3: rescale keys, values, FFN activations (~0.1% of weights)"
+ },
+ {
+  "tag": "B08_partial",
+  "model": "b",
+  "tech": "Partial FT (top 4 blocks)",
+  "args": "--method partial --top_k 4 --lr 5e-5",
+  "train_min": 230,
+  "question": "layer-wise / partial fine-tuning"
+ },
+ {
+  "tag": "C09_lorma",
+  "model": "c",
+  "tech": "LoRMA r16",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4",
+  "train_min": 230,
+  "question": "LoRMA on the local-GQA/global-MHA model"
+ },
+ {
+  "tag": "A10_full",
+  "model": "a",
+  "tech": "Full FT (encoder)",
+  "args": "--method full --lr 3e-5",
+  "train_min": 230,
+  "question": "the bidirectional encoder of the encoder-decoder"
+ },
+ {
+  "tag": "D11_ia3",
+  "model": "d",
+  "tech": "IA3",
+  "args": "--method ia3 --lr 3e-3",
+  "train_min": 230,
+  "question": "IA3 on D"
+ },
+ {
+  "tag": "B12_lorma_docquery",
+  "model": "b",
+  "tech": "LoRMA r16, whole-document query",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4 --query doc",
+  "train_min": 150,
+  "question": "query as one long document (mean of chunk vectors) instead of its citation passages (vs B06)"
+ },
+ {
+  "tag": "B13_lorma_randneg",
+  "model": "b",
+  "tech": "LoRMA r16, random negatives",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4 --neg random",
+  "train_min": 150,
+  "question": "what do lexical hard negatives add? (vs B06)"
+ },
+ {
+  "tag": "B14_lorma_inbatch",
+  "model": "b",
+  "tech": "LoRMA r16, in-batch negatives only",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 3e-4 --neg inbatch --batch 16",
+  "train_min": 150,
+  "question": "in-batch negatives only (vs B06)"
+ },
+ {
+  "tag": "ZA_zeroshot",
+  "model": "a",
+  "tech": "none (Phase-1 model as is)",
+  "args": "--method full --steps 0",
+  "train_min": 0,
+  "question": "how well do Phase-1 representations retrieve without any training?"
+ },
+ {
+  "tag": "ZB_zeroshot",
+  "model": "b",
+  "tech": "none (Phase-1 model as is)",
+  "args": "--method full --steps 0",
+  "train_min": 0,
+  "question": "how well do Phase-1 representations retrieve without any training?"
+ },
+ {
+  "tag": "ZC_zeroshot",
+  "model": "c",
+  "tech": "none (Phase-1 model as is)",
+  "args": "--method full --steps 0",
+  "train_min": 0,
+  "question": "how well do Phase-1 representations retrieve without any training?"
+ },
+ {
+  "tag": "ZD_zeroshot",
+  "model": "d",
+  "tech": "none (Phase-1 model as is)",
+  "args": "--method full --steps 0",
+  "train_min": 0,
+  "question": "how well do Phase-1 representations retrieve without any training?"
+ },
+ {
+  "tag": "ZE_zeroshot",
+  "model": "e",
+  "tech": "none (Phase-1 model as is)",
+  "args": "--method full --steps 0",
+  "train_min": 0,
+  "question": "how well do Phase-1 representations retrieve without any training?"
+ }
+]

@@ -1,0 +1,15 @@
+# bench_t4.py results (Kaggle 2x T4, DDP, fp16 AMP, seq 1024, random token ids)
+
+Probe model: GPT-style decoder, d=768, 12 layers, 12 heads, tied embeddings (a speed probe, not an architecture decision).
+Warm-up first (90 s for the main vocabulary, 45 s for the others), then 360 s (main) / 120 s (others) measured.
+
+| Vocab | Params | Micro-batch/GPU | Peak mem | tokens/s | 10 h tokens | 11 h tokens | 10 h with 5% overhead |
+|---|---|---|---|---|---|---|---|
+| 16,384 | 98.3M | 16 | 9.67 GiB | 35,925 | 1.293B | 1.423B | 1.229B |
+| 32,768 | 110.9M | 16 | 12.43 GiB | 31,728 | 1.142B | 1.256B | 1.085B |
+| 49,152 | 123.5M | 12 | 12.03 GiB | 27,904 | 1.005B | 1.105B | 0.954B |
+
+* MFU is about 18-19% of the nominal 65 TFLOP fp16 peak (typical for T4); 32k step time 4.13 s per 131,072-token step.
+* The 16k and 49k rows were measured for ~2 min only; the 49k row used micro-batch 12 (global batch 98k), so it is slightly pessimistic.
+* No data-loader, evaluation or checkpoint cost is included (hence the 5% overhead column).
+* words/s = tokens/s divided by mean tokens/word (1.260 / 1.170 / 1.134): 28.5k / 27.1k / 24.6k.

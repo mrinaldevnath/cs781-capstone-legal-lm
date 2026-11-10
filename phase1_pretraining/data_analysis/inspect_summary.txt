@@ -1,0 +1,54 @@
+==== SUMMARY ====
+A/B. records, schema, duplicates
+  acts  rec=18,826 nofield=0 empty=4 exact_dup=0.48% v1prefix_dup=0.81% (prefix-only=0.33%) raw_chars=0.72G pct={'1': 893, '5': 1691, '50': 15778, '95': 132642, '99': 390071, '99.9': 984669}
+        keysets=[[['category', 'text', 'text_length_chars', 'title', 'url', 'word_count', 'year'], 18826]]
+  sc    rec=55,549 nofield=0 empty=21 exact_dup=0.30% v1prefix_dup=0.31% (prefix-only=0.01%) raw_chars=1.24G pct={'1': 706, '5': 1588, '50': 13974, '95': 64763, '99': 150034, '99.9': 519666}
+        keysets=[[['bench', 'citations', 'court', 'date', 'headnote', 'text', 'text_length_chars', 'title', 'word_count'], 55549]]
+  hc    rec=2,536,738 nofield=0 empty=0 exact_dup=4.67% v1prefix_dup=5.05% (prefix-only=0.38%) raw_chars=9.84G pct={'1': 219, '5': 390, '50': 1656, '95': 12614, '99': 42042, '99.9': 138915}
+        keysets=[[['bench', 'char_count', 'court', 'court_id', 'filepath', 'page_count', 'text', 'word_count', 'year'], 2536738]]
+  trib  rec=869,132 nofield=0 empty=0 exact_dup=0.57% v1prefix_dup=0.57% (prefix-only=0.00%) raw_chars=6.05G pct={'1': 349, '5': 996, '50': 3649, '95': 21711, '99': 53735, '99.9': 148404}
+        keysets=[[['char_count', 'date', 'text', 'title', 'tribunal', 'word_count', 'year'], 869132]]
+  cross-source exact dups: {'acts&sc': 0, 'acts&hc': 0, 'acts&trib': 0, 'sc&hc': 0, 'sc&trib': 0, 'hc&trib': 0}
+C. cleaning / script profile (probe docs, non-val)
+  acts  n=4931 drop={'ok': 4928, 'long': 2, 'short': 1} retention=0.983 nonlatin>thr={'0.01': 0.0006, '0.05': 0.0, '0.1': 0.0, '0.2': 0.0, '0.5': 0.0} deva_docs=0.16% mojibake=0.30% words={'5': 285, '50': 2738, '95': 22431, '99': 66918} <40w=0.02% >=640w=83.57% nonascii/1k=0.04
+        top non-ASCII (per 1M chars): [['U+2044', '⁄', 6.5], ['U+2022', '•', 5.8], ['U+00B0', '°', 5.3], ['U+00A7', '§', 3.7], ['U+00B1', '±', 2.1], ['U+00C0', 'À', 2.0], ['U+00AC', '¬', 1.2], ['U+200D', '\u200d', 1.1], ['U+00C4', 'Ä', 0.8], ['U+00B7', '·', 0.8], ['U+2264', '≤', 0.6], ['U+221A', '√', 0.6], ['U+2212', '−', 0.6], ['U+03BC', 'μ', 0.6], ['U+00C1', 'Á', 0.5]]
+  sc    n=4914 drop={'ok': 4914} retention=1.000 nonlatin>thr={'0.01': 0.0, '0.05': 0.0, '0.1': 0.0, '0.2': 0.0, '0.5': 0.0} deva_docs=0.00% mojibake=0.00% words={'5': 277, '50': 2356, '95': 10600, '99': 23542} <40w=0.00% >=640w=85.00% nonascii/1k=0.55
+        top non-ASCII (per 1M chars): [['U+201C', '“', 156.9], ['U+201D', '”', 155.0], ['U+2019', '’', 107.1], ['U+2018', '‘', 56.3], ['U+2013', '–', 26.4], ['U+2014', '—', 14.3], ['U+2015', '―', 6.2], ['U+2016', '‖', 6.2], ['U+20B9', '₹', 2.7], ['U+2022', '•', 2.2], ['U+F0B7', '\uf0b7', 2.1], ['U+0333', '̳', 1.9], ['U+FFFD', '�', 1.8], ['U+00E0', 'à', 1.4], ['U+2044', '⁄', 1.4]]
+  hc    n=5000 drop={'ok': 4924, 'short': 76} retention=0.999 nonlatin>thr={'0.01': 0.0, '0.05': 0.0, '0.1': 0.0, '0.2': 0.0, '0.5': 0.0} deva_docs=0.02% mojibake=0.00% words={'5': 61, '50': 258, '95': 1683, '99': 4645} <40w=1.52% >=640w=15.56% nonascii/1k=0.07
+        top non-ASCII (per 1M chars): [['U+2026', '…', 39.8], ['U+00BD', '½', 5.0], ['U+201C', '“', 2.5], ['U+201D', '”', 2.5], ['U+00BC', '¼', 2.4], ['U+2016', '‖', 2.3], ['U+00E0', 'à', 2.1], ['U+20B9', '₹', 1.7], ['U+00E2', 'â', 1.6], ['U+00A6', '¦', 0.7], ['U+00BE', '¾', 0.6], ['U+00AE', '®', 0.6], ['U+00B9', '¹', 0.5], ['U+2019', '’', 0.4], ['U+00AA', 'ª', 0.3]]
+  trib  n=4992 drop={'ok': 4819, 'short': 10, 'script': 163} retention=0.972 nonlatin>thr={'0.01': 0.1362, '0.05': 0.0735, '0.1': 0.0327, '0.2': 0.0252, '0.5': 0.0192} deva_docs=13.84% mojibake=0.04% words={'5': 147, '50': 561, '95': 3485, '99': 8543} <40w=0.20% >=640w=44.73% nonascii/1k=6.52
+        top non-ASCII (per 1M chars): [['U+FFFD', '�', 1020.2], ['U+093E', 'ा', 268.7], ['U+0928', 'न', 155.5], ['U+0940', 'ी', 109.1], ['U+092F', 'य', 107.8], ['U+0915', 'क', 106.5], ['U+0924', 'त', 101.1], ['U+00A7', '§', 94.5], ['U+00BC', '¼', 88.9], ['U+0938', 'स', 88.6], ['U+0917', 'ग', 88.6], ['U+092A', 'प', 88.3], ['U+0930', 'र', 88.1], ['U+093F', 'ि', 87.6], ['U+00F8', 'ø', 86.0]]
+D/E. fertility on held-out val docs (cleaned) | est. cleaned tokens per source
+  src    vocab tok/word char/tok byte/tok  rt_fail  est_tokens
+  acts   16384    1.238     4.78     4.78    0/188       147M
+  sc     16384    1.196     4.93     4.93    0/300       251M
+  hc     16384    1.259     4.86     4.86    0/300      1928M
+  trib   16384    1.347     4.58     4.61    0/300      1276M
+  acts   32768    1.154     5.13     5.13    0/188       137M
+  sc     32768    1.124     5.24     5.25    0/300       236M
+  hc     32768    1.170     5.23     5.23    0/300      1792M
+  trib   32768    1.233     5.01     5.03    0/300      1168M
+  acts   49152    1.120     5.28     5.28    0/188       133M
+  sc     49152    1.095     5.38     5.38    0/300       230M
+  hc     49152    1.134     5.40     5.40    0/300      1737M
+  trib   49152    1.186     5.20     5.23    0/300      1123M
+  FLOPs/word, ILLUSTRATIVE body d=768 L=12 ctx=1024 (benchmark tokens/s replaces this):
+     16384: tok/word(avg over sources)=1.260  FLOPs/token=698M  FLOPs/word=880M
+     32768: tok/word(avg over sources)=1.170  FLOPs/token=774M  FLOPs/word=905M
+     49152: tok/word(avg over sources)=1.134  FLOPs/token=849M  FLOPs/word=963M
+  512+128-word window tokens (val docs): {16384: {50: 812, 99: 1421, 'max': 3579, 'over_1024': 0.0602, 'n': 1528}, 32768: {50: 752, 99: 1178, 'max': 3317, 'over_1024': 0.0262, 'n': 1528}, 49152: {50: 728, 99: 1101, 'max': 3163, 'over_1024': 0.0177, 'n': 1528}}
+  under-trained merged tokens (projected occurrences in a 1B-token run): {16384: {'sample_tokens': 6980945, 'unseen_in_sample': 183, 'lt1000_per_1B': 521, 'lt100_per_1B': 183}, 32768: {'sample_tokens': 6484196, 'unseen_in_sample': 873, 'lt1000_per_1B': 2783, 'lt100_per_1B': 873}, 49152: {'sample_tokens': 6283824, 'unseen_in_sample': 2234, 'lt1000_per_1B': 9398, 'lt100_per_1B': 2234}}
+F. source classifier on held-out 512-word val prompts (true -> predicted)
+  acts  n= 155 acc=97.42% {'sc': 3, 'acts': 151, 'hc': 1}
+  sc    n= 464 acc=87.28% {'sc': 405, 'hc': 50, 'trib': 8, 'acts': 1}
+  hc    n= 248 acc=98.39% {'hc': 244, 'sc': 2, 'trib': 2}
+  trib  n= 661 acc=96.82% {'trib': 640, 'sc': 16, 'hc': 5}
+  Phase 2-7 TRAIN texts, share classified as each source:
+    Phase_2_LNER: {'docs': 129, 'acts': 0.45, 'sc': 0.279, 'hc': 0.225, 'trib': 0.047}
+    Phase_3_RR: {'docs': 90, 'acts': 0.144, 'sc': 0.533, 'hc': 0.056, 'trib': 0.267}
+    Phase_4_CJPE: {'docs': 1200, 'acts': 0.476, 'sc': 0.312, 'hc': 0.161, 'trib': 0.051}
+    Phase_5_LSI: {'docs': 1200, 'acts': 0.0, 'sc': 0.008, 'hc': 0.9, 'trib': 0.092}
+    Phase_6_Summ: {'docs': 600, 'acts': 0.003, 'sc': 0.963, 'hc': 0.028, 'trib': 0.005}
+    Phase_7_PCR: {'docs': 1200, 'acts': 0.008, 'sc': 0.589, 'hc': 0.359, 'trib': 0.043}
+
+total 18.4 min | full details: ./p1_inspect/summary.json

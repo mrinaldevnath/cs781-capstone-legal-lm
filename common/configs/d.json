@@ -1,0 +1,60 @@
+{
+ "name": "d_gdn_mla",
+ "model": {
+  "vocab": 32768,
+  "d": 768,
+  "n_heads": 12,
+  "head_dim": 64,
+  "ffn": 2048,
+  "rope_base": 10000.0,
+  "rope_len": 2048,
+  "qchunk": 256,
+  "ckpt": true,
+  "kind": "decoder",
+  "layout": [
+   "gdn",
+   "gdn",
+   "gdn",
+   "mla",
+   "gdn",
+   "gdn",
+   "gdn",
+   "mla",
+   "gdn",
+   "gdn",
+   "gdn",
+   "mla"
+  ],
+  "mla": {
+   "d_latent": 256,
+   "d_nope": 64,
+   "d_rope": 32,
+   "d_v": 64
+  },
+  "gdn": {
+   "n_heads": 6,
+   "head_dim": 128,
+   "conv": 4,
+   "chunk": 64,
+   "use_delta": true
+  }
+ },
+ "train": {
+  "micro_batch": 8,
+  "global_batch_tokens": 131072,
+  "lr": 0.0006,
+  "warmup": 300,
+  "decay_frac": 0.2,
+  "wd": 0.1,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "clip": 1.0,
+  "budget_tokens": 1000000000000.0,
+  "eval_every": 500,
+  "eval_windows": 128,
+  "ckpt_minutes": 30,
+  "seed": 1234,
+  "mix": null,
+  "compile": false
+ }
+}

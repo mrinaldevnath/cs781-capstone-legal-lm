@@ -1,0 +1,212 @@
+[
+ {
+  "tag": "D01_full_extract",
+  "model": "d",
+  "tech": "Full FT",
+  "input": "extract",
+  "args": "--method full --lr 5e-5 --epochs 6 --input extract",
+  "est": 140,
+  "question": "full fine-tuning on extract-then-abstract input; also the distillation teacher",
+  "max_min": 308
+ },
+ {
+  "tag": "E02_kd_extract",
+  "model": "e",
+  "tech": "Knowledge distillation (D01 -> E)",
+  "input": "extract",
+  "args": "--method full --lr 1e-4 --epochs 6 --input extract --teacher {MODEL_DIR}/D01_full_extract.pt --kd_alpha 0.5 --kd_T 2",
+  "est": 100,
+  "question": "does a 58M student keep the 115M teacher's quality?",
+  "max_min": 220
+ },
+ {
+  "tag": "E03_full_extract",
+  "model": "e",
+  "tech": "Full FT (no teacher)",
+  "input": "extract",
+  "args": "--method full --lr 1e-4 --epochs 6 --input extract",
+  "est": 70,
+  "question": "the student trained without a teacher (KD reference)",
+  "max_min": 154
+ },
+ {
+  "tag": "D04_lorma_extract",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "input": "extract",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 8 --input extract",
+  "est": 140,
+  "question": "compulsory LoRMA",
+  "max_min": 308
+ },
+ {
+  "tag": "D05_full_lead",
+  "model": "d",
+  "tech": "Full FT",
+  "input": "lead (truncation)",
+  "args": "--method full --lr 5e-5 --epochs 6 --input lead",
+  "est": 140,
+  "question": "truncation baseline: what does extraction add?",
+  "max_min": 308
+ },
+ {
+  "tag": "B06_full_extract",
+  "model": "b",
+  "tech": "Full FT",
+  "input": "extract",
+  "args": "--method full --lr 5e-5 --epochs 6 --input extract",
+  "est": 110,
+  "question": "plain GPT, full fine-tuning",
+  "max_min": 242
+ },
+ {
+  "tag": "B07_lorma_extract",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "input": "extract",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 8 --input extract",
+  "est": 120,
+  "question": "LoRMA on the GPT baseline",
+  "max_min": 264
+ },
+ {
+  "tag": "D08_full_chunk",
+  "model": "d",
+  "tech": "Full FT",
+  "input": "chunk (divide and conquer)",
+  "args": "--method full --lr 5e-5 --epochs 3 --input chunk",
+  "est": 330,
+  "question": "Shukla et al. / DANCER chunk summaries, concatenated",
+  "max_min": 726
+ },
+ {
+  "tag": "B09_full_chunk",
+  "model": "b",
+  "tech": "Full FT",
+  "input": "chunk (divide and conquer)",
+  "args": "--method full --lr 5e-5 --epochs 3 --input chunk",
+  "est": 270,
+  "question": "the same on B",
+  "max_min": 594
+ },
+ {
+  "tag": "D10_adalora_extract",
+  "model": "d",
+  "tech": "AdaLoRA r12->8",
+  "input": "extract",
+  "args": "--method adalora --rank 12 --alpha 24 --target_rank 8 --lr 5e-4 --epochs 8 --input extract",
+  "est": 150,
+  "question": "adaptive rank budget",
+  "max_min": 330
+ },
+ {
+  "tag": "D11_adapter_extract",
+  "model": "d",
+  "tech": "Houlsby adapters",
+  "input": "extract",
+  "args": "--method adapter --bottleneck 64 --lr 1e-4 --epochs 8 --input extract",
+  "est": 140,
+  "question": "bottleneck adapters",
+  "max_min": 308
+ },
+ {
+  "tag": "A12_full_sled",
+  "model": "a",
+  "tech": "Full FT",
+  "input": "SLED (enc-dec)",
+  "args": "--method full --lr 5e-5 --epochs 6 --input sled --micro 4 --accum 4",
+  "est": 180,
+  "question": "encoder-decoder reading 3,072 tokens via SLED",
+  "max_min": 396
+ },
+ {
+  "tag": "C13_lorma_extract",
+  "model": "c",
+  "tech": "LoRMA r16",
+  "input": "extract",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 8 --input extract",
+  "est": 130,
+  "question": "LoRMA on the local/global GQA model",
+  "max_min": 286
+ },
+ {
+  "tag": "D14_lorma_chunk",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "input": "chunk (divide and conquer)",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 2 --input chunk",
+  "est": 230,
+  "question": "best input (chunk) + best D method (LoRMA): full FT on chunks peaked at epoch 1",
+  "max_min": 506
+ },
+ {
+  "tag": "B15_lorma_chunk",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "input": "chunk (divide and conquer)",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 2 --input chunk",
+  "est": 180,
+  "question": "the same on B",
+  "max_min": 396
+ },
+ {
+  "tag": "E16_kd_chunk",
+  "model": "e",
+  "tech": "Knowledge distillation (D08 -> E)",
+  "input": "chunk (divide and conquer)",
+  "args": "--method full --lr 1e-4 --epochs 2 --input chunk --teacher {SAVED:D08_full_chunk} --teacher_ckpt {CKPT:d} --kd_alpha 0.5 --kd_T 2",
+  "est": 200,
+  "question": "distil the best teacher (D08, chunk) into the 58M model",
+  "max_min": 440
+ },
+ {
+  "tag": "C17_lorma_chunk",
+  "model": "c",
+  "tech": "LoRMA r16",
+  "input": "chunk (divide and conquer)",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 2 --input chunk",
+  "est": 170,
+  "question": "C with the best input",
+  "max_min": 374
+ },
+ {
+  "tag": "A20_full_sled8k",
+  "model": "a",
+  "tech": "Full FT",
+  "input": "SLED, whole judgment (8,192 tokens)",
+  "args": "--method full --lr 5e-5 --epochs 4 --input sled --sled_in 8192 --micro 2 --accum 8 --gen_batch 16",
+  "est": 330,
+  "question": "A12 read 3,072 tokens; the median judgment has ~4,800: does reading all of it help?",
+  "max_min": 726
+ },
+ {
+  "tag": "A21_full_sled6k",
+  "model": "a",
+  "tech": "Full FT",
+  "input": "SLED (6,144 tokens)",
+  "args": "--method full --lr 5e-5 --epochs 4 --input sled --sled_in 6144 --micro 4 --accum 4 --gen_batch 16",
+  "est": 280,
+  "question": "the same at 6,144 tokens (safer on time)",
+  "max_min": 616
+ },
+ {
+  "tag": "D18_lorma_stage2",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "input": "two-stage (Summ^N): D08 chunk summaries -> summary",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 5 --input stage2 --coarse_dir {COARSE} --in_len 576 --out_len 448",
+  "est": 120,
+  "question": "rewrite all chunk summaries into one summary (stage 2)",
+  "max_min": 264
+ },
+ {
+  "tag": "B19_lorma_stage2",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "input": "two-stage (Summ^N): D08 chunk summaries -> summary",
+  "args": "--method lorma --rank 16 --alpha 32 --lr 2e-4 --epochs 5 --input stage2 --coarse_dir {COARSE} --in_len 576 --out_len 448",
+  "est": 100,
+  "question": "the same stage 2 on B",
+  "max_min": 220
+ }
+]

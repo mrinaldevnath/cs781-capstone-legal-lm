@@ -1,0 +1,560 @@
+[
+ {
+  "id": "A01",
+  "tag": "A01_lorma",
+  "model": "a",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory: multiplicative low-rank update (lr 2e-4, stable in Phases 3-4)"
+ },
+ {
+  "id": "A02",
+  "tag": "A02_adalora",
+  "model": "a",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "A03",
+  "tag": "A03_qlora",
+  "model": "a",
+  "tech": "QLoRA (NF4 + LoRA r16)",
+  "change": "-",
+  "group": "T",
+  "question": "4-bit frozen backbone"
+ },
+ {
+  "id": "A04",
+  "tag": "A04_adapter",
+  "model": "a",
+  "tech": "Houlsby adapter",
+  "change": "lr 1e-4",
+  "group": "T",
+  "question": "bottleneck adapters (lr lowered: 3 of 5 collapsed at 1e-3 in Phase 4)"
+ },
+ {
+  "id": "A05",
+  "tag": "A05_prefix",
+  "model": "a",
+  "tech": "Prefix tuning (20)",
+  "change": "-",
+  "group": "T",
+  "question": "learned prefix states in every block"
+ },
+ {
+  "id": "A06",
+  "tag": "A06_partial",
+  "model": "a",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "A07",
+  "tag": "A07_full",
+  "model": "a",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "A08",
+  "tag": "A08_prompt",
+  "model": "a",
+  "tech": "Prompt tuning (20)",
+  "change": "-",
+  "group": "X",
+  "question": "input-only adaptation"
+ },
+ {
+  "id": "B01",
+  "tag": "B01_lorma",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory: multiplicative low-rank update (lr 2e-4, stable in Phases 3-4)"
+ },
+ {
+  "id": "B02",
+  "tag": "B02_adalora",
+  "model": "b",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "B03",
+  "tag": "B03_qlora",
+  "model": "b",
+  "tech": "QLoRA (NF4 + LoRA r16)",
+  "change": "-",
+  "group": "T",
+  "question": "4-bit frozen backbone"
+ },
+ {
+  "id": "B04",
+  "tag": "B04_adapter",
+  "model": "b",
+  "tech": "Houlsby adapter",
+  "change": "lr 1e-4",
+  "group": "T",
+  "question": "bottleneck adapters (lr lowered: 3 of 5 collapsed at 1e-3 in Phase 4)"
+ },
+ {
+  "id": "B05",
+  "tag": "B05_prefix",
+  "model": "b",
+  "tech": "Prefix tuning (20)",
+  "change": "-",
+  "group": "T",
+  "question": "learned prefix states in every block"
+ },
+ {
+  "id": "B06",
+  "tag": "B06_partial",
+  "model": "b",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "B07",
+  "tag": "B07_full",
+  "model": "b",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "B08",
+  "tag": "B08_prompt",
+  "model": "b",
+  "tech": "Prompt tuning (20)",
+  "change": "-",
+  "group": "X",
+  "question": "input-only adaptation"
+ },
+ {
+  "id": "B11",
+  "tag": "B11_s_ref",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "12k-doc subset (reference)",
+  "group": "S",
+  "question": "reference for the study"
+ },
+ {
+  "id": "B12",
+  "tag": "B12_s_first1",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "first 512 tokens only",
+  "group": "S",
+  "question": "is the beginning enough?"
+ },
+ {
+  "id": "B13",
+  "tag": "B13_s_last2",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "last 1,024 tokens",
+  "group": "S",
+  "question": "the end only (as in Phase 4)"
+ },
+ {
+  "id": "B14",
+  "tag": "B14_s_spread8",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "whole document up to 4,096 tokens (8 chunks)",
+  "group": "S",
+  "question": "more of the document: 92% of documents read whole"
+ },
+ {
+  "id": "B15",
+  "tag": "B15_s_lwan",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "label-wise attention head",
+  "group": "S",
+  "question": "each statute attends to its own chunks"
+ },
+ {
+  "id": "B16",
+  "tag": "B16_s_chunkmax",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "chunk predictions + max aggregation",
+  "group": "S",
+  "question": "chunk-level statute predictions aggregated to the document"
+ },
+ {
+  "id": "B17",
+  "tag": "B17_s_mean",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "mean pooling of chunks",
+  "group": "S",
+  "question": "learned attention vs mean pooling"
+ },
+ {
+  "id": "B18",
+  "tag": "B18_s_bcepw",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "BCE + positive weights",
+  "group": "S",
+  "question": "class weighting for rare statutes"
+ },
+ {
+  "id": "B19",
+  "tag": "B19_s_asl",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "asymmetric loss (ASL)",
+  "group": "S",
+  "question": "down-weighting easy negatives"
+ },
+ {
+  "id": "B20",
+  "tag": "B20_s_focal",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "focal loss",
+  "group": "S",
+  "question": "focusing on hard examples"
+ },
+ {
+  "id": "B21",
+  "tag": "B21_s_cooc",
+  "model": "b",
+  "tech": "LoRMA r16",
+  "change": "statute co-occurrence layer",
+  "group": "S",
+  "question": "do multi-label relationships help?"
+ },
+ {
+  "id": "C01",
+  "tag": "C01_lorma",
+  "model": "c",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory: multiplicative low-rank update (lr 2e-4, stable in Phases 3-4)"
+ },
+ {
+  "id": "C02",
+  "tag": "C02_adalora",
+  "model": "c",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "C03",
+  "tag": "C03_qlora",
+  "model": "c",
+  "tech": "QLoRA (NF4 + LoRA r16)",
+  "change": "-",
+  "group": "T",
+  "question": "4-bit frozen backbone"
+ },
+ {
+  "id": "C04",
+  "tag": "C04_adapter",
+  "model": "c",
+  "tech": "Houlsby adapter",
+  "change": "lr 1e-4",
+  "group": "T",
+  "question": "bottleneck adapters (lr lowered: 3 of 5 collapsed at 1e-3 in Phase 4)"
+ },
+ {
+  "id": "C05",
+  "tag": "C05_prefix",
+  "model": "c",
+  "tech": "Prefix tuning (20)",
+  "change": "-",
+  "group": "T",
+  "question": "learned prefix states in every block"
+ },
+ {
+  "id": "C06",
+  "tag": "C06_partial",
+  "model": "c",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "C07",
+  "tag": "C07_full",
+  "model": "c",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "C08",
+  "tag": "C08_prompt",
+  "model": "c",
+  "tech": "Prompt tuning (20)",
+  "change": "-",
+  "group": "X",
+  "question": "input-only adaptation"
+ },
+ {
+  "id": "D01",
+  "tag": "D01_lorma",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory: multiplicative low-rank update (lr 2e-4, stable in Phases 3-4)"
+ },
+ {
+  "id": "D02",
+  "tag": "D02_adalora",
+  "model": "d",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "D03",
+  "tag": "D03_qlora",
+  "model": "d",
+  "tech": "QLoRA (NF4 + LoRA r16)",
+  "change": "-",
+  "group": "T",
+  "question": "4-bit frozen backbone"
+ },
+ {
+  "id": "D04",
+  "tag": "D04_adapter",
+  "model": "d",
+  "tech": "Houlsby adapter",
+  "change": "lr 1e-4",
+  "group": "T",
+  "question": "bottleneck adapters (lr lowered: 3 of 5 collapsed at 1e-3 in Phase 4)"
+ },
+ {
+  "id": "D05",
+  "tag": "D05_prefix",
+  "model": "d",
+  "tech": "Prefix tuning (20)",
+  "change": "-",
+  "group": "T",
+  "question": "learned prefix states in every block"
+ },
+ {
+  "id": "D06",
+  "tag": "D06_partial",
+  "model": "d",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "D07",
+  "tag": "D07_full",
+  "model": "d",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "D08",
+  "tag": "D08_prompt",
+  "model": "d",
+  "tech": "Prompt tuning (20)",
+  "change": "-",
+  "group": "X",
+  "question": "input-only adaptation"
+ },
+ {
+  "id": "D11",
+  "tag": "D11_s_ref",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "12k-doc subset (reference)",
+  "group": "S",
+  "question": "reference for the study"
+ },
+ {
+  "id": "D12",
+  "tag": "D12_s_first1",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "first 512 tokens only",
+  "group": "S",
+  "question": "is the beginning enough?"
+ },
+ {
+  "id": "D13",
+  "tag": "D13_s_last2",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "last 1,024 tokens",
+  "group": "S",
+  "question": "the end only (as in Phase 4)"
+ },
+ {
+  "id": "D14",
+  "tag": "D14_s_spread8",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "whole document up to 4,096 tokens (8 chunks)",
+  "group": "S",
+  "question": "more of the document: 92% of documents read whole"
+ },
+ {
+  "id": "D15",
+  "tag": "D15_s_lwan",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "label-wise attention head",
+  "group": "S",
+  "question": "each statute attends to its own chunks"
+ },
+ {
+  "id": "D16",
+  "tag": "D16_s_chunkmax",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "chunk predictions + max aggregation",
+  "group": "S",
+  "question": "chunk-level statute predictions aggregated to the document"
+ },
+ {
+  "id": "D17",
+  "tag": "D17_s_mean",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "mean pooling of chunks",
+  "group": "S",
+  "question": "learned attention vs mean pooling"
+ },
+ {
+  "id": "D18",
+  "tag": "D18_s_bcepw",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "BCE + positive weights",
+  "group": "S",
+  "question": "class weighting for rare statutes"
+ },
+ {
+  "id": "D19",
+  "tag": "D19_s_asl",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "asymmetric loss (ASL)",
+  "group": "S",
+  "question": "down-weighting easy negatives"
+ },
+ {
+  "id": "D20",
+  "tag": "D20_s_focal",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "focal loss",
+  "group": "S",
+  "question": "focusing on hard examples"
+ },
+ {
+  "id": "D21",
+  "tag": "D21_s_cooc",
+  "model": "d",
+  "tech": "LoRMA r16",
+  "change": "statute co-occurrence layer",
+  "group": "S",
+  "question": "do multi-label relationships help?"
+ },
+ {
+  "id": "E01",
+  "tag": "E01_lorma",
+  "model": "e",
+  "tech": "LoRMA r16",
+  "change": "-",
+  "group": "T",
+  "question": "compulsory: multiplicative low-rank update (lr 2e-4, stable in Phases 3-4)"
+ },
+ {
+  "id": "E02",
+  "tag": "E02_adalora",
+  "model": "e",
+  "tech": "AdaLoRA r12->8",
+  "change": "-",
+  "group": "T",
+  "question": "adaptive rank budget across matrices"
+ },
+ {
+  "id": "E03",
+  "tag": "E03_qlora",
+  "model": "e",
+  "tech": "QLoRA (NF4 + LoRA r16)",
+  "change": "-",
+  "group": "T",
+  "question": "4-bit frozen backbone"
+ },
+ {
+  "id": "E04",
+  "tag": "E04_adapter",
+  "model": "e",
+  "tech": "Houlsby adapter",
+  "change": "lr 1e-4",
+  "group": "T",
+  "question": "bottleneck adapters (lr lowered: 3 of 5 collapsed at 1e-3 in Phase 4)"
+ },
+ {
+  "id": "E05",
+  "tag": "E05_prefix",
+  "model": "e",
+  "tech": "Prefix tuning (20)",
+  "change": "-",
+  "group": "T",
+  "question": "learned prefix states in every block"
+ },
+ {
+  "id": "E06",
+  "tag": "E06_partial",
+  "model": "e",
+  "tech": "Partial FT (top 4)",
+  "change": "-",
+  "group": "T",
+  "question": "layer-wise tuning: top 4 blocks only"
+ },
+ {
+  "id": "E07",
+  "tag": "E07_full",
+  "model": "e",
+  "tech": "Full FT",
+  "change": "-",
+  "group": "X",
+  "question": "reference: every weight trains (can PEFT match it?)"
+ },
+ {
+  "id": "E08",
+  "tag": "E08_prompt",
+  "model": "e",
+  "tech": "Prompt tuning (20)",
+  "change": "-",
+  "group": "X",
+  "question": "input-only adaptation"
+ }
+]

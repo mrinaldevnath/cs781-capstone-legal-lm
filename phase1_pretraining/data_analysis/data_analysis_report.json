@@ -1,0 +1,1403 @@
+{
+  "sources": {
+    "acts": {
+      "source": "acts",
+      "filename": "train_acts.json",
+      "records": 18826,
+      "no_text_field": 0,
+      "empty_text": 4,
+      "total_chars": 718326398,
+      "total_words": 119638348,
+      "mean_chars": 38164.19073424716,
+      "median_chars": 15778.0,
+      "percentile_chars": {
+        "1": 893.21,
+        "5": 1691.0500000000002,
+        "25": 6126.0,
+        "50": 15778.0,
+        "75": 37744.5,
+        "95": 132642.6000000001,
+        "99": 390071.5000000001,
+        "99.9": 984669.9460000014
+      },
+      "duplicate_rate": 0.004781638508128785,
+      "exact_duplicates": 90,
+      "script_character_counts": {
+        "Kannada": 324,
+        "Devanagari": 6284,
+        "Malayalam": 564
+      },
+      "suspicious_character_counts": {
+        "U+00AD": 2001,
+        "U+200C": 1,
+        "U+FFFD": 3,
+        "U+200D": 711
+      },
+      "unicode_top_50": [
+        [
+          "U+0097",
+          9055
+        ],
+        [
+          "U+0085",
+          6102
+        ],
+        [
+          "U+2022",
+          5587
+        ],
+        [
+          "U+00C0",
+          4869
+        ],
+        [
+          "U+2044",
+          4321
+        ],
+        [
+          "U+00B0",
+          2857
+        ],
+        [
+          "U+00AD",
+          2001
+        ],
+        [
+          "U+0092",
+          1703
+        ],
+        [
+          "U+00A7",
+          1631
+        ],
+        [
+          "U+00C4",
+          1602
+        ],
+        [
+          "U+00B1",
+          1029
+        ],
+        [
+          "U+0096",
+          980
+        ],
+        [
+          "U+00A3",
+          823
+        ],
+        [
+          "U+00C1",
+          812
+        ],
+        [
+          "U+0095",
+          809
+        ],
+        [
+          "U+0930",
+          757
+        ],
+        [
+          "U+00C9",
+          747
+        ],
+        [
+          "U+093E",
+          745
+        ],
+        [
+          "U+00AC",
+          718
+        ],
+        [
+          "U+200D",
+          711
+        ],
+        [
+          "U+00B7",
+          491
+        ],
+        [
+          "U+03BC",
+          448
+        ],
+        [
+          "U+00A5",
+          438
+        ],
+        [
+          "U+0327",
+          434
+        ],
+        [
+          "U+00A4",
+          425
+        ],
+        [
+          "U+094D",
+          412
+        ],
+        [
+          "U+00A2",
+          383
+        ],
+        [
+          "U+221A",
+          383
+        ],
+        [
+          "U+00C3",
+          372
+        ],
+        [
+          "U+0915",
+          371
+        ],
+        [
+          "U+093F",
+          361
+        ],
+        [
+          "U+2264",
+          356
+        ],
+        [
+          "U+0938",
+          324
+        ],
+        [
+          "U+0094",
+          313
+        ],
+        [
+          "U+00F0",
+          308
+        ],
+        [
+          "U+0093",
+          295
+        ],
+        [
+          "U+00FC",
+          283
+        ],
+        [
+          "U+0924",
+          279
+        ],
+        [
+          "U+0947",
+          265
+        ],
+        [
+          "U+0928",
+          263
+        ],
+        [
+          "U+00E6",
+          249
+        ],
+        [
+          "U+00C6",
+          240
+        ],
+        [
+          "U+092F",
+          238
+        ],
+        [
+          "U+00AB",
+          237
+        ],
+        [
+          "U+0091",
+          224
+        ],
+        [
+          "U+00E5",
+          210
+        ],
+        [
+          "U+00D7",
+          198
+        ],
+        [
+          "U+2020",
+          192
+        ],
+        [
+          "U+092A",
+          191
+        ],
+        [
+          "U+2010",
+          186
+        ]
+      ],
+      "mojibake_documents": 4,
+      "keysets": [
+        {
+          "keys": [
+            "category",
+            "text",
+            "text_length_chars",
+            "title",
+            "url",
+            "word_count",
+            "year"
+          ],
+          "count": 18826
+        }
+      ],
+      "suspicious_examples": {
+        "U+00AD": [
+          {
+            "index": 355,
+            "count": 1,
+            "snippet": "Maharashtra Horticulture Development Corporation Act, 1984 Maharashtra Act No. 25 of 1988 For Statement of Objects and Reasons see Maharashtra Government Gazette, 1982, Part V, Extraordinary, Pages 390-391; for Joint Committee Report, see Maharashtra Government Gazette, 1984, Part V, Extraordinary, Pages 454-486. [This Act received the assent of the President on the 4th November 1988; assent first published in the Maharashtra Government Gazette, Part IV, Extraordinary, on the 16th November 1988.] An Act to make a special provision for securing the orderly establishment in horticultural production in the State of Maharashtra, and for storage, transport, processing and marketing of horticulture produce and to assist generally in the organization thereof any for the purpose of establishing Maharashtra Horticulture Development Corporation and for incidental and supplemental purposes connected with the matters aforesaid. Whereas, it is expendient to make special provision for securing the o"
+          },
+          {
+            "index": 365,
+            "count": 2,
+            "snippet": "The Maharashtra Textile Companies (Acquisition and Transfer of Undertakings) Act, 1982 Maharashtra Act No. 33 of 1982 For Statement of Objects and Review see Maharashtra Government Gazette, 1982, part V dated 14th October 1982 at pages 340 and 341. [This Act received assent of the President on the 13th October 1982; assent was first published in the Maharashtra Government Gazette, Part IV, Extraordinary, on the 14th October 1982]. An Act to provide for the acquisition of undertakings of two textile companies for the purpose of ensuring continued and increased production of goods essential to the needs of the country and for matters connected therewith or incidental thereto. Whereas Messrs. Vijay Manufacturing Company (Private) Limited, Badnera, and Messrs. Western. India Spinning and Manufacturing Company Limited, Bombay, owning industrial undertakings were engaged in production of articles mentioned in the First Schedule to the Industries (Development and Regulation) Act, 1951, i. e. "
+          },
+          {
+            "index": 376,
+            "count": 1,
+            "snippet": "The Maharashtra Merged Territories and Areas (Jagirs Abolition) Act, 1954 Act No. 39 of 1954 For Statement of Objects and Reasons, see Bombay Government Gazette, 1953, Part V, page 380.(This Act received The assent of the President on the 13th June 1954; assent was first published in the Bombay Government Gazette, Part IV, on the 18th June 1954). An Act to abolish Jagirs in the merged territories and merged areas in the State of Bombay. Whereas it is expedient in the public interest to abolish Jagirs of various kinds in the merged territories and merged areas in the State of Bombay and to provide for matters consequential and incidental thereto; It is hereby enacted as follows:-\n1. Short title, extent and commencement.\n(1) This Act may be called [the Maharashtra Merged Territories and Areas (Jagirs Abolition) Act] [This Short title was substituted for the short title 'the Bombay Merged Territories and Areas (Jagirs Abolition) Act, 1953' by Maharashtra 24 of 2012, Schedule entry No. 54,"
+          },
+          {
+            "index": 401,
+            "count": 4,
+            "snippet": "The Mumbai Metropolitan Region Development Authority Act, 1974 Maharashtra Act No. 4 of 1975 For Statement of Objects and Reasons, See Maharashtra Government Gazette, Part V. P. 1022. [The Act received assent of the President on 18th January, 1975; Assent was first published in the Maharashtra Government Gazette, Part IV, Extraordinary, dated the 22nd January, 1975.] An Act for forming [Brihan Mumbai] [These words subtituted for the words 'Greater Bombay' by Maharashtra 25 of 1996, Section 2 Schedule, entry (2), sub-entry 1 (a).] and certain areas round about into a [Mumbai Metropolitan Region,] [These words were subtituted for the words 'Bombay Metropolitan Region' by Maharashtra 25 of 1996, Section 2 Schedule, entry (2), sub-entry 2 (b).] to provide for the establishment of an Authority for the purpose of planning, co-ordinating and supervising the proper, orderly and rapid development of the areas in that Region and of executing plans, projects and schemes for such development, and "
+          },
+          {
+            "index": 405,
+            "count": 2,
+            "snippet": "Maharashtra Government Servants Regulation of Transfers and Prevention of Delay in Discharge of Official Duties Act, 2005 Maharashtra Act No. 21 of 2006MH91 First published after having received the assent of the Governor in the \"Maharashtra Government Gazette\", on the 12th May 2006). An Act to provide for regulation of transfers of Government Servants and prevention of delay in discharge of official duties. Whereas, both Houses of the State Legislature were not in session; And Whereas, the Governor of Maharashtra was satisfied that circumstances existed which rendered it necessary for him to take immediate action for the purposes hereinafter appearing; and, therefore, promulgated the Maharashtra Government Servants Regulation of Transfers and Prevention of Delay in Discharge of Official Duties Ordinance, 2003, on the 25th August 2003; And Whereas it is expedient to replace the said Ordinance by an Act of the State Legislature with certain amendments; it is hereby enacted in the Fifty-"
+          },
+          {
+            "index": 410,
+            "count": 1,
+            "snippet": "The Maharashtra Tax on Lotteries Act, 2006 Maharashtra Act No. 43 of 2006 (First Published, after having received the assent of the Governor, in the \"Maharashtra Government Gazette\" on the 29th December, 2006) An Act to provide for the levy and collection of tax on the lotteries and the matters connected therewith or incidental thereto. Whereas it is expedient to enact a law to provide for the levy and collection of tax on the lotteries of the State as well as lotteries of other States, conducted as per the provisions of the Lotteries (Regulation) Act, 1998 and which are marketed in the State of Maharashtra, and for matters connected therewith or incidental thereto, for the purposes aforesaid; it is hereby enacted in the Fifty-Seventh Year of the Republic of India as follows:-\nChapter I Preliminary\n\n1. Short title, extent and commencement.\n(1) This Act may be called the Maharashtra Tax on Lotteries Act, 2006.\n(2) It extends to the whole of the State of Maharashtra.\n(3) It shall come in"
+          },
+          {
+            "index": 422,
+            "count": 2,
+            "snippet": "Maharashtra Gunthewari Developments (Regularisation, Upgradation and Control) Act, 2001 Maharashtra Act No. 27 of 2001MH95 For Statement of Objects and Reasons, see Maharashtra Government Gazette, 2001, Extraordinary Part V-A, p. 245, dated the 18th July, 2001.(This Act received the assent of the Governor on the 10th August, 2001; the assent first published in the Maharashtra Government Gazette, Part IV, on the 13th August, 2001) An Act to provide for the regularisation and upgradation of certain Gunthewari developments and for the control of Gunthewari developments and for matters connected therewith and incidental thereto. Whereas both houses of the State Legislature were not in session: And Whereas the Governor of Maharashtra was satisfied that circumstances existed which rendered it necessary for him to take immediate action to promulgate an Ordinance to provide for the regularisation and upgradation of certain Gunthewari developments and for the control of Gunthewari developments "
+          },
+          {
+            "index": 434,
+            "count": 2,
+            "snippet": "Maharashtra Hereditary Offices Act, 1874 Act No. 3 of 1874MH97[5th February, 1875] For Statement of Objects and Reasons, see Bombay Government Gazette, 1873, Part V, and pp. 207 and 309, for Proceedings in Council, see Bombay Government Gazette, pp. 439, 443 and 462, ibid, 1874, pp, 135, 148, 156 and 162. As to the application of Bombay 3 of 1874 as amended by Bombay 5 of 1886, to Matadars in the districts of Ahmedabad, Kaira, Broach and Surat, and in villages in the Panch Mahals District to which Bombay 6 of 1887, infra, is extended - see the Matadars Act, 1887 (Bombay 6 of 1887), Sections 1 and 2, infra, Subject to modifications and repeals. Bombay 6 of 1887 is to be read as one with this Act - see Bombay 6 of 1887, Section 4. For further modifications, see Section 5 et seq, of the latter Act. An Act to amend the Law relating to Hereditary Offices. Preamble Whereas it is expedient to declare and amend the law relating to Hereditary Offices; It is hereby enacted as follows:-\nPart I - "
+          },
+          {
+            "index": 447,
+            "count": 1,
+            "snippet": "The Maharashtra Recognition of Trade Unions and Prevention of Unfair Labour Practices Act, 1971 Maharashtra Act No. 1 of 1972 [1st February, 1972] For Statement of Objects and Reasons, see Maharashtra Government Gazette, 1969, Part V. Extraordinary, pages 628-632. An Act to provide for the recognition of trade unions for facilitating collective bargaining for certain undertakings; to state their rights and obligations; to confer certain powers on unrecognised unions; to provide for declaring certain strikes and lock-outs as illegal strikes and lock-outs; to define and provide for the prevention of certain unfair labour practices; to constitute courts (as independent machinery) for carrying out the purposes of according recognition to trade unions and for enforcing the provisions relating to unfair practices; and to provide for matters connected with the purposes aforesaid. Whereas, by Government Resolution, Industries and Labour Department, No. IDA. 1367-LAB-II, dated the 14th February"
+          },
+          {
+            "index": 465,
+            "count": 1,
+            "snippet": "The Maharashtra Merged Territories (Janjira and Bhor) Khoti Tenure Abolition Act, 1953 Act No. 71 of 1953 [28th December, 1953] For Statement of Objects and Reasons, see Bombay Government Gazette, 1953, Part V, page 445. An Act to abolish khoti tenure prevailing in the merged territories of the former States of Janjira and Bhor. Whereas it is expedient to abolish the khoti tenure prevailing in the merged territories of the former States of Janjira and Bhor and to provide for certain consequential and incidental matters hereinafter appearing; It is hereby enacted as follows:-\n1. Short title, extent and commencement.\n(1) This Act may be called [the Maharashtra Merged Territories (Janjira and Bhor) Khoti Tenure Abolition Act] [This Short title was substituted for the Short title 'the Bombay Merged Territories (Janjira and Bhor) Khoti Tenure Abolition Act, 1953' by Maharashtra 24 of 2012, Schedule entry No. 53, (w.r.e.f. 1-5-1960).].\n(2) It extends to the merged territories of the former S"
+          }
+        ],
+        "U+200C": [
+          {
+            "index": 4229,
+            "count": 1,
+            "snippet": "The Orissa Co-operative Societies Rules, 1965 Published vide Notification No. 12486-CF, dated 24th June, 1965, Published vide Orissa Gazette Extraordinary No. 8910, dated 29.6.1965 No. 12486-CF - In exercise of the powers conferred by Section 134 of the Cooperative Societies Act, 1962 (Orissa Act 2 of 1963), the State Government do hereby make the following Rules, the same having been published as required under Sub-Section (1) of the said section of the said Act, namely : Chapter-I Preliminary\n1. Short title and commencement.\n- (i) These rules may be called the Orissa Co-operative Societies Rules, 1965.\n(ii) They shall come into force at once.\n2. Definitions.\n- In these rules unless the context otherwise requires-\n(a) \"The Act\" means the Orissa Co-operative Societies Act, 1962, and all words and expressions used but not defined herein shall have the meanings respectively assigned to them in the Act;\n(b) \"Arbitrator\" means a person appointed under Clause (c) of Sub-Section (1) of Secti"
+          }
+        ],
+        "U+FFFD": [
+          {
+            "index": 7349,
+            "count": 1,
+            "snippet": "In exercise of powers conferred on it by subsection (4) of Section 91 read with Section 181 of the Electricity Act, 2003 (36 of 2003), and all other powers enabling it in that behalf, the Joint Electricity Regulatory Commission for UT of Jammu & Kashmir and UT of Ladakh, after previous publication, hereby makes the following regulations, namely:\n1. Short Title and Commencement.\n1. 1 These regulations may be called the Joint Electricity Regulatory Commission for UT of Jammu & Kashmir and UT of Ladakh (Appointment of Consultants) Regulations, 2023.1.2 These regulations shall come into force from the date of their publication in the Official Gazette:\n2. Definitions.\n2. 1 In these regulations unless the context otherwise requires: -a. *\"Act\"* means the Electricity Act, 2003 (36 of 2003); b. *\"Commission\"* means the Joint Electricity Regulatory Commission for UT of Jammu & Kashmir and UT of Ladakh ; c. *\"Committee\"* means the committee constituted by the Commission for evaluation of request"
+          },
+          {
+            "index": 8019,
+            "count": 1,
+            "snippet": "Preliminary\n1. Short Title, Commencement and Extent.\na. These Regulations shall be called the Joint Electricity Regulatory Commission for the UT of Jammu & Kashmir and the UT of Ladakh (Grant of Connectivity and Open Access in Intra-State Transmission & Distribution and related matters) Regulations, 2024.b. These Regulations shall come into force from the date of their publication in the Official Gazette.c. These Regulations extend to the whole of the UT of Jammu & Kashmir and the UT of Ladakh.\n2. Definitions.\n(a) *\"Act\"* means the Electricity Act, 2003 (36 of 2003); (b) *\"Allotted Capacity\"* means the power transfer in MW between the specified point of injection and point of drawal allowed to a Long-term or a Medium-term Open Access Consumer or a Generating Station on the Intra-State Transmission System or the Distribution System and the expression \"Allotment of Capacity\" shall be construed accordingly; (c) *\"Applicant\"* means a Consumer, Trading Licensee, Distribution Licensee or a g"
+          },
+          {
+            "index": 8022,
+            "count": 1,
+            "snippet": "In exercise of the powers conferred under Section 181 of the Electricity Act, 2003 (36 of 2003), read with Sections 39, 40, 42, 61, and 86 thereof and all other powers enabling it in this behalf, the Joint Electricity Regulatory Commission for the UT of Jammu & Kashmir and the UT of Ladakh hereby makes the following Regulations.\nChapter 1 Preliminary\n\n1. Short Title, Commencement and Extent.\n1. 1. These Regulations shall be called the Joint Electricity Regulatory Commission for the UT of Jammu & Kashmir and the UT of Ladakh (Green Energy Open Access), Regulations, 2024.1.2. These Regulations shall come in to force from the date of their publication in the Official Gazette. 1.3. These Regulations extend to the whole of the UT of Jammu & Kashmir and the UT of Ladakh.\n2. Definitions. - In these Regulations, unless the context otherwise requires,\n(a) *\"Act\"* means the Electricity Act, 2003 (36 of 2003); (b) *\"Banking\"* means the surplus green energy injected in the grid and credited with t"
+          }
+        ],
+        "U+200D": [
+          {
+            "index": 11152,
+            "count": 200,
+            "snippet": "‍भाग 4 (क) ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍राजस्‍थान र राज-पत्र, ‍शसतम्‍बर‍2, , 2222 ‍‍‍ 353\n32. वयािृक्ततयां.- कोई डदरसा जो सरकार क\nे आदेश सां. प.16 (1)प्रा.शश./2002 ददन राांक 27.1.2003द्िारा गदित राजस्थान र डदरसा बो व द्िारा रश्जस्ट्रीकृ त है और इस िधियन र।ड के प्रारांभ से िीक पूिव इस प्रकाररश्जस्ट्रीकृ त है इस िधियन र।ड के उपबांिों के िन रुसार रश्जस्ट्रीकृ त कक।ा ग।ा सडझा जा।ेगाविन रोद कु डार भारिान री, प्रमुख शासन सधचि।LAW (LEGISLATIVE DRAFTING) DEPARTMENT(GROUP-II) NOTIFICATION Jaipur, September 23, 2020 No. F. 2 (4) Vidhi/2/2020. - In pursuance of Clause (3) of Article 348 of the Constitution of India, the Governor is pleased to authorise the publication in the Rajasthan Gazette of the following translation in the English language of Rajasthan Madarsa Board Adhiniyam, 2020 (2020 Ka Adhiniyam Sankhyank 24) :-(Authorised English Translation) THE RAJASTHAN MADARSA BOARD ACT, 2020 (Act No. 24 of 2020)(Received the assent of the Governor on the 22ndday of September, 2020) AnActto establish a Board of"
+          },
+          {
+            "index": 11154,
+            "count": 213,
+            "snippet": "164. ‍ राजस्‍\nथान र राज-्र, मार्च‍1 , 0 0 ‍‍‍‍‍‍‍‍‍‍‍‍ भाग 4 (क1⁄2 (Authorised English Translation) THE RAJASTHAN JAN-AADHAAR AUTHORITY ACT, 2020 (Act No. 3 of 2020)(Received the assent of the Governor on the 27thday of February, 2020) AnActto provide for, as a measure for good governance, efficient, transparent and targeteddelivery of public welfare benefits and services to the individual residing in the State of Rajasthan, the expenditure for which is incurred from the Consolidated Fund of the State, using Jan-Aadhaar ID as identifier; constitution of Rajasthan Jan-Aadhaar Authority and formatters connected therewith or incidental thereto. Be it enacted by the Rajasthan State Legislature in the Seventy-first Year of the Republic of India, as follows:- CHAPTER-IPreliminary\n1. Short title, extent and commencement. - (1) This Act may be called the Rajasthan\nJan-Aadhaar Authority Act, 2020.\n(2) It shall extend to the whole of the State of Rajasthan.\n(3) It shall be deemed to have come in"
+          },
+          {
+            "index": 11155,
+            "count": 289,
+            "snippet": "राजस्‍थान र‍राज-पत्रविशेषाांकRAJASTHAN GAZETTE Extraordinaryसाधिकार‍प्रकाशशत Published by Authorityआश्विन र‍1, ‍बुििार, ‍शाके ‍1942-‍शसतम्‍बर‍23, ‍2020 Asvina 1, Wednesday , Saka 1942- September 23, 2020भाग-4 (क)राजस्‍थान र‍वििान र‍मांडल‍के ‍अधिनन रयम।LAW (LEGISLATIVE DRAFTING) DEPARTMENT(GROUP-II) NOTIFICATION Jaipur, September 23, 2020 No. F. 2 (20) Vidhi/2/2020. - The following Act of the Rajasthan State Legislaturewhich received the assent of the Governor on the 22ndday of September, 2020 is herebypublished for general information:- THE RAJASTHAN LEGISLATIVE ASSEMBLY (OFFICERS AND MEMBERSEMOLUMENTS AND PENSION) (AMENDMENT) ACT, 2020 (Act No. 25 of 2020)(Received the assent of the Governor on the 22ndday of September, 2020) AnActfurther to amend the Rajasthan Legislative Assembly (Officers and Members Emolumentsand Pension) Act, 1956. Be it enacted by the Rajasthan State Legislature in the Seventy-first Year of the Republic of India, as follows:-\n1. Short title and commencement. - ("
+          },
+          {
+            "index": 13991,
+            "count": 3,
+            "snippet": "[Translation in English of \"2021-ടേ കേരള ധാതുക്കള്‍ (അവോശങ്ങള്‍ നിക്ഷിപ്തമാക്കല്‍) ആേ്റ്\" published under the authority of the Governor.] ACT 24 OF 2021THE KERALA MINERALS (VESTING OF RIGHTS) ACT, 2021 An act to vest in the Government the rights of the minerals in the soil and subsoil of the land in the State excluding the land comes under the purview of Travancore Proclamation dated 14th day of June, 1881 and Cochin Proclamation of 1905.\nWHEREAS, it is expedient to vest in the Government the rights of the minerals in the soil and subsoil of the land in the State excluding the land comes under the purview of Travancore Proclamation dated 14th day of June, 1881 and Cochin Proclamation of 1905; BE it enacted in the Seventy-second Year of the Republic of India as follows:-\n1. Short title and commencement. - (1) This Act may be called the Kerala Minerals (Vesting of Rights) Act, 2021.\n(2) It shall be deemed to have come into force on the 30th day of December, 2019.\n2. Definitions. - In thi"
+          },
+          {
+            "index": 13996,
+            "count": 1,
+            "snippet": "[Translation in English of \"2021-ടേ പ്ശീനാരായണ്ഗുരു ഓപ്പണ്‍ യൂണ്ികവെ്സിറി ആേ്റ്\" published under the authority of the Governor.] der the authority of the Governor.] ACT 1 OF 2021THE SREENARAYANAGURU OPEN UNIVERSITY ACT, 2021 An Act to establish and incorporate an Open University to impart higher education through distance education and for skill development by deviating from the educational system existing in the State, utilizing modern technological methods in all areas of knowledge at different levels and to provide for matters connected therewith or incidental thereto.\nWHEREAS, it is expedient to establish and incorporate an Open University to impart higher education through distance education and for skill development by deviating from the educational system existing in the State, utilizing modern technological methods in all areas of knowledge at different levels and to provide for matters connected therewith or incidental thereto; BE it enacted in the Seventy-first Year of the Re"
+          },
+          {
+            "index": 14000,
+            "count": 1,
+            "snippet": "[Translation in English of \"2021-ടേ കേരള സവാപ്രയ കോകളജ് അദ്ധയാപേ-അനദ്ധയാപേ ജീവനക്കാര്‍ (നിയമനവും കസവനവയവസ്ഥേളും) ആേ്റ്\" published under the authority of the Governor.] ACT 13 OF 2021THE KERALA SELF FINANCING COLLEGE TEACHING AND NON-TEACHING EMPLOYEES (APPOINTMENT AND CONDITIONS OF SERVICE) ACT, 2021 An Act to provide for the method of appointment and conditions of service of teaching and non-teaching employees of self financing colleges affiliated to various Universities established by State law and for matters connected therewith and incidental thereto.\nWHEREAS, it is expedient to provide for the method of appointment and conditions of service of teaching and non-teaching employees of self financing colleges affiliated to various Universities established by State law and for matters connected therewith and incidental thereto; BE it enacted in the Seventy-second Year of the Republic of India as follows:-\n1. Short title and commencement. - (1) This Act may be called the Kerala Self Fin"
+          },
+          {
+            "index": 14003,
+            "count": 1,
+            "snippet": "[Translation in English of \"2021-ടേ കേരള സാംപ്േമിേ കരാഗങ്ങള്‍ക ആേ്റ്\" published under the authority of the Governor.] ACT 4 OF 2021THE KERALA EPIDEMIC DISEASES ACT, 2021AN ACT to unify and consolidate the laws relating to the regulation and prevention of epidemic diseases and for matters connected therewith or incidental thereto.\nWHEREAS, it is expedient to unify and consolidate the laws relating to the regulation and prevention of epidemic diseases and for matters connected therewith or incidental thereto; BE it enacted in the Seventy-second year of the Republic of India as follows:-\n1. Short title and commencement. - (1) This Act may be called the Kerala Epidemic Diseases Act, 2021.\n(2) Section 8 shall be deemed to have come into force on the 4th day of July, 2020. and remaining sections shall be deemed to have come into force on 27th. day of March, 2020.\n2. Definitions. - In this Act unless the context otherwise requires,-\n(a) \"Epidemic Disease\" means any disease declared as epidemi"
+          },
+          {
+            "index": 14126,
+            "count": 3,
+            "snippet": "[Translation in English of \"2020-ടേ കേരള പ്േിസ്തയന്‍പ (മേങ്കര ഓര്‍ണ്കത്താ േ്സ്-യാകക്കാബായ)ടസമികത്തരിേളില്‍ മൃതകേഹം അെക്കം ടെയ്യുന്നതിനുള്ള അവോശം ആേ്റ് published under the authority of the Governor.] ACT 1 OF 2020THE KERALA RIGHT TO BURIAL OF CORPSE IN CHRISTIAN (MALANKARA ORTHODOX-JACOBITE) CEMETERIES ACT, 2020. An Act to provide for the burial of corpse and funeral services of Christians belonging to Malankara Orthodox-Jacobite denominations and for matters connected therewith or incidental thereto.\nWHEREAS, it is expedient to provide for the burial of corpse and funeral services of Christians belonging to Malankara Orthodox-Jacobite denominations and for matters connected there with or incidental thereto;\n1. BE it enacted in the Seventy- first Year of the Republic of India as follows:-\nShort title and commencement.─\n(1) This Act may be called the Kerala Right to Burial of Corpse in Christian (Malankara Orthodox-Jacobite) Cemeteries Act, 2020.\n(2) It shall be deemed to have come into "
+          }
+        ]
+      },
+      "sample_count": 199
+    },
+    "sc": {
+      "source": "sc",
+      "filename": "train_supreme_court.json",
+      "records": 55549,
+      "no_text_field": 0,
+      "empty_text": 21,
+      "total_chars": 1239650413,
+      "total_words": 210205151,
+      "mean_chars": 22324.780525140468,
+      "median_chars": 13974.5,
+      "percentile_chars": {
+        "1": 706.27,
+        "5": 1588.0,
+        "25": 6373.75,
+        "50": 13974.5,
+        "75": 25675.0,
+        "95": 64763.599999999744,
+        "99": 150034.09999999971,
+        "99.9": 519666.51100001304
+      },
+      "duplicate_rate": 0.002971473851030111,
+      "exact_duplicates": 165,
+      "script_character_counts": {
+        "Devanagari": 6754,
+        "Tamil": 42,
+        "Gujarati": 1,
+        "Kannada": 2
+      },
+      "suspicious_character_counts": {
+        "U+00AD": 82147,
+        "U+F0B7": 1987,
+        "U+FFFD": 63816
+      },
+      "unicode_top_50": [
+        [
+          "U+201C",
+          200093
+        ],
+        [
+          "U+201D",
+          198588
+        ],
+        [
+          "U+2019",
+          137692
+        ],
+        [
+          "U+00AD",
+          82147
+        ],
+        [
+          "U+2018",
+          70631
+        ],
+        [
+          "U+FFFD",
+          63816
+        ],
+        [
+          "U+2013",
+          32504
+        ],
+        [
+          "U+2014",
+          19041
+        ],
+        [
+          "U+2015",
+          5678
+        ],
+        [
+          "U+2016",
+          5475
+        ],
+        [
+          "U+20B9",
+          2239
+        ],
+        [
+          "U+2022",
+          2118
+        ],
+        [
+          "U+F0B7",
+          1987
+        ],
+        [
+          "U+2044",
+          1700
+        ],
+        [
+          "U+00E0",
+          1654
+        ],
+        [
+          "U+0333",
+          1157
+        ],
+        [
+          "U+201F",
+          1134
+        ],
+        [
+          "U+0871",
+          853
+        ],
+        [
+          "U+202B",
+          670
+        ],
+        [
+          "U+202C",
+          669
+        ],
+        [
+          "U+201E",
+          595
+        ],
+        [
+          "U+00F6",
+          530
+        ],
+        [
+          "U+093E",
+          518
+        ],
+        [
+          "U+0930",
+          467
+        ],
+        [
+          "U+00A9",
+          362
+        ],
+        [
+          "U+094D",
+          362
+        ],
+        [
+          "U+0915",
+          359
+        ],
+        [
+          "U+0928",
+          355
+        ],
+        [
+          "U+0924",
+          355
+        ],
+        [
+          "U+00E9",
+          305
+        ],
+        [
+          "U+092E",
+          298
+        ],
+        [
+          "U+0947",
+          290
+        ],
+        [
+          "U+092F",
+          259
+        ],
+        [
+          "U+00B7",
+          250
+        ],
+        [
+          "U+0938",
+          238
+        ],
+        [
+          "U+093F",
+          231
+        ],
+        [
+          "U+092A",
+          228
+        ],
+        [
+          "U+F0B0",
+          225
+        ],
+        [
+          "U+0935",
+          208
+        ],
+        [
+          "U+00A7",
+          193
+        ],
+        [
+          "U+25CF",
+          189
+        ],
+        [
+          "U+00B0",
+          187
+        ],
+        [
+          "U+00D7",
+          184
+        ],
+        [
+          "U+00B6",
+          180
+        ],
+        [
+          "U+0932",
+          180
+        ],
+        [
+          "U+0940",
+          180
+        ],
+        [
+          "U+0939",
+          165
+        ],
+        [
+          "U+091C",
+          164
+        ],
+        [
+          "U+0926",
+          160
+        ],
+        [
+          "U+0902",
+          153
+        ]
+      ],
+      "mojibake_documents": 32,
+      "keysets": [
+        {
+          "keys": [
+            "bench",
+            "citations",
+            "court",
+            "date",
+            "headnote",
+            "text",
+            "text_length_chars",
+            "title",
+            "word_count"
+          ],
+          "count": 55549
+        }
+      ],
+      "suspicious_examples": {
+        "U+00AD": [
+          {
+            "index": 445,
+            "count": 31,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION Special Leave Petition (C) No.6439 of 2020 R. PALANISAMY & ORS.... Petitioners Versus THE REGISTRAR GENERAL HIGH COURT OF MADRAS & ORS.... Respondents ORDER\n\n1. Aggrieved by the dismissal by the High Court, of their claim for promotion to the post of Junior Bailiff, persons working as Office Assistants/Record Clerks in various courts in Erode District of the State of Tamil Nadu have come up with this special leave petition.\n\n2. We have heard Mr. Purushottam Sharma Tripathi, learned Signature Not Verified Digitally signed by counsel appearing for the petitioners. DEEPAK SINGH Date: 2020.07.24 16:19:24 IST Reason:\n\n3. 22 persons, of whom 3 are working as Record Clerks and the rest working as Office Assistants in various courts in Erode District filed a writ petition on the file of the High Court of Judicature at Madras, seeking a Mandamus to consider their claim for promotion to the post of Junior Bailiff, without insi"
+          },
+          {
+            "index": 446,
+            "count": 15,
+            "snippet": "NON­REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION CRIMINAL APPEAL NO(S). 123 OF 2020 (ARISING OUT OF SLP(CRL.) NO(S). 11369 OF 2019) STATE OF MADHYA PRADESH....APPELLANT(S) VERSUS BABBU RATHORE & ANR RESPONDENT(S) JUDGMENT\n\nRastogi, J.\n\n1. Leave granted.\n\n2. This appeal is directed against the judgment of the High Court of Madhya Pradesh dated 9th May, 2019 confirming Order of the trial Judge dated 24th July, 2015 whereby the respondents have Signature Not Verified Digitally signed by RAJNI MUKHI Date: 2020.01.17 been discharged from the offences under Sections 302/34, 404/34 16:20:23 IST Reason: of the IPC and Section 3(2)(v) of the Scheduled Castes and 1\n\nScheduled Tribes(Prevention of Atrocities) Act, 1989(hereinafter being referred to as “Act, 1989”) at the advanced stage of the trial when almost all the material witnesses have been examined by the prosecution which has given rise to this appeal.\n\n3. The background facts in nutshell are that deceased Bais"
+          },
+          {
+            "index": 449,
+            "count": 12,
+            "snippet": "NON­REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 1851 OF 2020 [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.22181 OF 2019] STATE OF ODISHA & ORS....APPELLANTS VERSUS SRI SATYA NARAYAN BEHURA...RESPONDENT WITH CIVIL APPEAL NO.1852 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.22184 OF 2019] CIVIL APPEAL NO. 1853 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.22185 OF 2019] CIVIL APPEAL NO. 1854 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.22186 OF 2019] CIVIL APPEAL NO. 1855 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.20571 OF 2019] CIVIL APPEAL NO. 1856 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.20100 OF 2019] CIVIL APPEAL NO. 1857 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.20420 OF 2019] CIVIL APPEAL NO.1858 OF 2020, [ARISING OUT OF SPECIAL LEAVE PETITION [C] NO.320 OF 2020] AND Signature Not Verified Digitally signed by INDU MARWAH Date: 2020.02.28 18:52:58 IST CIVIL APPEAL NO.1859"
+          },
+          {
+            "index": 455,
+            "count": 41,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 9393 OF 2019 Ramkhiladi & Anr.... Appellant Versus The United India Insurance Company & Anr.... Respondent JUDGMENT\n\nM. R. Shah, J.\n\n1. Feeling aggrieved and dissatisfied with the impugned Judgment and Order dated 10.05.2018 passed by the High Court of Judicature for Rajasthan at Jaipur in SBCMA No. 2614 of 2009, by which the High Court has allowed the said appeal preferred by the respondent­insurance company by quashing and setting aside the Judgment and Award passed by the learned Motor Accident Claims Signature Not Verified Tribunal and consequently has dismissed the claim petition Digitally signed by MEENAKSHI KOHLI Date: 2020.01.07 15:00:36 IST Reason:\n\npreferred by the original claimants, the original claimants have preferred the present appeal.\n\n2. The facts leading to the present appeal in nutshell are as under:\n\n2.1 That in a vehicular accident which occurred on 02.10.2006, one Chotelal alia"
+          },
+          {
+            "index": 461,
+            "count": 28,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO(S). 7138 OF 2010 GOVERNMENT OF INDIA & ORS. APPELLANT(S) VERSUS ISRO DRIVERS ASSOCIATION....RESPONDENT(S) JUDGMENT\n\nRastogi, J.\n\n1. The instant appeal is directed against the order and judgment dated 22nd September, 2008 passed by the Division Bench of the High Court of Andhra Pradesh at Hyderabad holding the association formed by the drivers based on job description as a ‘distinct category’ laid down under Rule 5 (c) of Central Civil Services Signature Not Verified (Recognition of Service Association) Rules, 1993 (hereinafter being Digitally signed by ASHA SUNDRIYAL Date: 2020.08.10 19:10:39 IST Reason:\n\nreferred to as “Rules 1993”) overruling the view expressed by the Single Bench of the High Court dated 9th October, 2001.\n\n2. The seminal facts in brief which are relevant for the present purpose are that the respondent approached the High Court by filing a writ petition seeking a declaration in trea"
+          },
+          {
+            "index": 462,
+            "count": 6,
+            "snippet": "NON­REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO(s).652 OF 2020 (arising out of SLP (Civil) No(s). 17418 of 2018) VAIJINATH S/O YESHWANTA JADHAV DECEASED BY L.R. AND OTHERS...APPELLANT(S) VERSUS AFSAR BEGUM, WIFE OF NADIMUDDIN, DECEASED BY L.Rs. AND OTHERS...RESPONDENT(S) JUDGMENT\n\nNAVIN SINHA, J. The appellant assails the order dated 01.02.2010 dismissing his writ application and the affirmation of the same by the Division Bench dated 19.03.2018, in appeal.\n\n2. The predecessor of the appellant was granted the status of a statutory tenant under Section 38E(1) of the Hyderabad Tenancy and Agricultural Lands Act, 1950 (hereinafter referred to as ‘the Signature Not Verified Digitally signed by ARJUN BISHT Date: 2020.01.30 16:09:36 IST Act’) with regard to Survey No.189 and 202/AA in village Ghat Reason: Nandur on 01.02.1959. The original land owner Nadimuddin, 1\n\npredecessor of the respondents nos.1 and 2 (hereinafter referred to as ‘respondents’),"
+          },
+          {
+            "index": 463,
+            "count": 56,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO(S). 3961 OF 2010 TRILOKI NATH SINGH....APPELLANT(S) VERSUS ANIRUDH SINGH(D) THR. LRS & ORS RESPONDENT(S) JUDGMENT\n\nAjay Rastogi, J.\n\n1. The question arises in the appeal for our consideration is as to whether the decree passed on a compromise can be challenged by the stranger to the proceedings in a separate suit.\n\n2. The seminal facts which are relevant for the present purpose and the circumstances in which it arises for our consideration are Signature Not Verified Digitally signed by DEEPAK SINGH that the appellant­plaintiff filed suit before 4 th sub­judge, Chapra Date: 2020.05.06 16:03:14 IST Reason: seeking a declaration that the compromise decree dated 15 th\n\nSeptember, 1994 passed in Second Appeal No. 495/86 by the High Court is illegal, inoperative and obtained by fraud and misrepresentation and also prayed for injunction against the respondents­defendants restraining them from entering into p"
+          },
+          {
+            "index": 466,
+            "count": 1,
+            "snippet": "NON­REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION CRIMINAL APPEAL NO. 249 OF 2020 (arising out of SLP (Criminal) No. 5261 of 2019) MUKUL AGRAWAL AND OTHERS...APPELLANT(S) VERSUS STATE OF U.P. AND ANOTHER...RESPONDENT(S) JUDGMENT\n\nNAVIN SINHA, J. Leave granted.\n\n2. The appellants are aggrieved by order dated 21.05.2019 dismissing their application under Section 482 Cr.P.C. declining to quash the entire proceedings against them in Complaint Case No.2705/2003 filed by the respondent no.2 under Sections 420, 467, 468, 471, I.P.C.\n\n3. The order of the High Court unfortunately only discusses the principles for quashing laid down in judicial precedents and Signature Not Verified abruptly concludes to decline interference. The order does not Digitally signed by RAJNI MUKHI Date: 2020.02.10 15:44:15 IST Reason: reflect any consideration of the facts, the materials and the reasons\n\nwhy the High Court was not persuaded to entertain the application. We are therefore depr"
+          },
+          {
+            "index": 470,
+            "count": 130,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 2368 OF 2020 (arising out of SLP(C) No. 7189/2019) Aneesh Kumar V.S. & Ors....Appellant(s) Versus State of Kerala & Ors....Respondent(s) With CIVIL APPEAL NO. 2369 OF 2020 (arising out of SLP(C) No. 7567/2019) CIVIL APPEAL NO. 2370 OF 2020 (arising out of SLP(C) No. 17448/2019) CIVIL APPEAL NO. 2371 OF 2020 (arising out of SLP(C) No. 18384/2019) JUDGMENT\n\nA.M. Khanwilkar, J.\n\n1. Leave granted.\n\n2. Signature Not Verified Digitally signed by This batch of appeals, by special leave, are against the final DEEPAK SINGH Date: 2020.04.24 15:21:49 IST judgment and order dated 21.2.2019 passed by the Full Bench of Reason:\n\nthe High Court of Kerala at Ernakulam (for short, “the High Court”) in O.P. (KAT) Nos. 256/2017, 330/2017 and 408/2017 pursuant to a Reference Order by the Division Bench, bearing the same case numbers, passed on 16.11.2018.\n\n3. In a nutshell, the appellants have preferred these appeals to "
+          },
+          {
+            "index": 472,
+            "count": 63,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA INHERENT JURISDICTION CONTEMPT PETITION (CIVIL) NO. 591/2019 IN SPECIAL LEAVE PETITION (CIVIL) NO. 5350/2019 Hukum Chand Deswal...Petitioner(s) Versus Satish Raj Deswal...Respondent(s) JUDGMENT\n\nA.M. Khanwilkar, J.\n\n1. This contempt petition has been filed by the original plaintiff (in CS(OS) No. 2041/2013 filed in High Court of Delhi at New Delhi1), under Article 129 of the Constitution of India read with Sections 12 and 14 of the Contempt of Courts Act, 1971 2 and read with Rule 3 of the Rules to Regulate Proceedings for Contempt of the Supreme Court, 1975 3 in reference to the order dated 22.2.2019 passed by this Court in SLP(C) Nos. 5147/2019 Signature Not Verified and 5350/2019, which reads thus: ­ Digitally signed by DEEPAK SINGH Date: 2020.05.06 16:03:17 IST Reason: 1 For short, “the High Court” 2 For short, “the 1971 Act” 3 For short, “the 1975 Rules”\n\n“We are not inclined to interfere with the Special Leave Petition. However, we accede "
+          }
+        ],
+        "U+F0B7": [
+          {
+            "index": 456,
+            "count": 3,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 4049 OF 2020 (arising out of SLP (C) No. 15293/2020 Diary No. 19638 of 2020) DR. AKB SADBHAVANA MISSION SCHOOL OF HOMEO PHARMACY...APPELLANT(S) VERSUS THE SECRETARY, MINISTRY OF AYUSH & ORS....RESPONDENT(S) J U D G M E N T\n\nASHOK BHUSHAN, J. The application seeking permission to file special leave petition is allowed. Leave granted.\n\n2. This appeal has been filed by the appellant Dr. AKB Sadbhavana Mission School of Homeo Pharmacy aggrieved by the part of Division Bench judgment of Kerala High Court dated 21.08.2020 passed in Writ Signature Not Verified Petition (C) No.9459 of 2020. Digitally signed by Nidhi Ahuja The appellant, who was Date: 2020.12.15 17:57:02 IST Reason: not party in the writ petition feeling aggrieved by\n\ncertain directions issued by the High Court have come up in this appeal.\n\n3. We need to notice the contents and prayers of the writ petition filed in the Kerala High Court by re"
+          },
+          {
+            "index": 457,
+            "count": 4,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION Civil Appeal No. 1878 of 2016 Oil and Natural Gas Corporation...Appellant Versus Krishan Gopal & Ors....Respondents With Civil Appeal Nos 935-937 of 2020 SLP(C) Nos. 10478-10480/2016 With Civil Appeal Nos 938-939 of 2020 SLP(C) Nos. 30854-30855/2017 With Civil Appeal No 934 of 2020 SLP(C) No. 16455/2018 And With Civil Appeal Nos 669-696 of 2020 Signature Not Verified Digitally signed by SLP(C) Nos. 15971-15998/2018 SANJAY KUMAR Date: 2020.02.07 15:22:29 IST Reason:\n\nJUDGMENT Dr Dhananjaya Y Chandrachud, J.\n\n1 This batch of appeals arises from the judgments of the High Courts of Andhra Pradesh, Delhi, Madras and Uttarakhand. A judgment of a two judge Bench of this Court in [Oil and Natural Gas Corporation Limited v Petroleum Coal Labour Union1 (“PCLU”]) has assumed focus since the decisions of the High Courts in four of the present appeals have relied on the judgment of this Court in coming to the conclusion that the "
+          },
+          {
+            "index": 460,
+            "count": 7,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO.7850 OF 2009 BALWANT SINGH (D) THR. LRS....Appellant VERSUS DUNGAR SINGH (D) THR. LRS....Respondents JUDGMENT\n\nR. BANUMATHI, J. This appeal has been filed by the appellant against the final order and judgment dated 01.06.2006 passed by the High Court of Rajasthan at Jodhpur in SB Civil Miscellaneous Appeal No.180 of 1989 in and by which the High Court allowed the appeal of the respondents and made the arbitral award between the parties the rule of the court.\n\n2. Balwant Singh and Dungar Singh are real brothers. After the death of their father-Jeet Mal Jain, disputes arose between them Signature Not Verified regarding partition of family properties. The parties decided to settle Digitally signed by MADHU BALA Date: 2020.02.12 16:49:55 IST Reason: their dispute amicably through arbitration proceedings. Vide agreement dated 23.11.1981, they have appointed Shri Fateh Lal,\n\nKiran Mal and Sensh Mal as arbit"
+          },
+          {
+            "index": 494,
+            "count": 23,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL ORIGINAL JURISDICTION WRIT PETITION (CRIMINAL) NO. 160 OF 2020 AMISH DEVGAN PETITIONER(S) VERSUS UNION OF INDIA AND OTHERS RESPONDENT(S) JUDGMENT\n\nSANJIV KHANNA, J. Applications for intervention are allowed.\n\n2. The writ petitioner, Amish Devgan, is a journalist who, it is stated, is presently the managing director of several news channels owned and operated by TV18 Broadcast Limited, including News18 Uttar Pradesh/Uttarakhand, News18 Madhya Pradesh/ Chhattisgarh and News18 Rajasthan.\n\n3. The petitioner hosts and anchors debate shows ‘Aar Paar’ on Signature Not Verified Digitally signed by Jatinder Kaur News18 India and ‘Takkar’ on CNBC Awaaz. On 15th June, 2020, Date: 2020.12.07 16:48:52 IST Reason: at around 7:30 p.m., the petitioner had hosted and anchored a Writ Petition (Criminal) No. 160 of 2020 Page 1 of 128\n\ndebate on the enactment1 which, while excluding Ayodhya, prohibits conversion and provides for maintenance of the religiou"
+          },
+          {
+            "index": 498,
+            "count": 6,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION Civil Appeal No. 6239 of 2019 Wg. Cdr. Arifur Rahman Khan...Appellants and Aleya Sultana and Ors. Versus DLF Southern Homes Pvt Ltd...Respondents\n\n(now Known as BEGUR OMR Homes Pvt. Ltd.) and Ors. With Civil Appeal No. 6303 of 2019 Signature Not Verified Digitally signed by ARJUN BISHT Date: 2020.08.24 16:32:32 IST Reason:\n\nJUDGMENT Dr. Dhananjaya Y. Chandrachud, J 1 The National Consumer Disputes Redressal Commission 1 dismissed a consumer complaint filed by 339 flat buyers, accepting the defence of DLF Southern Homes Pvt. Ltd. and Annabel Builders and Developers Pvt. Ltd. that there was no deficiency of service on their part in complying with their contractual obligations and, that despite a delay in handing over the possession of the residential flats, the purchasers were not entitled to compensation in excess of what was stipulated in the Apartment Buyers Agreement2. 2 The complaint before the NCDRC was initially"
+          },
+          {
+            "index": 505,
+            "count": 4,
+            "snippet": "Civil Appeal No. 5749 of 2012 etc. PILCOM vs. C.I.T. West Bengal-VII REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 5749 OF 2012 PILCOM...Appellant VERSUS C.I.T. WEST BENGAL-VII...Respondent WITH SPECIAL LEAVE PETITION (CIVIL) No.7315 of 2019 AND SPECIAL LEAVE PETITION(CIVIL)NO.6829 OF 2019 JUDGMENT\n\nUday Umesh Lalit, J. Civil Appeal No.5749 OF 2012\n\n1. This appeal by special leave challenges the Judgment and Order dated 11.11.2010 passed by the High Court1 dismissing Income Tax Appeal No.196 of 2000 and thereby affirming the view taken by the Tribunal 2 in I.T.A.Nos. 110/Cal/1999 and 402/Cal/1999 on 04.01.2000. 1 The High Court of Judicature at Calcuttta 2 Income Tax Appellate Tribunal, Calcutta\n\nCivil Appeal No. 5749 of 2012 etc. PILCOM vs. C.I.T. West Bengal-VII\n\n2. The facts leading to the filing of the proceedings before the Tribunal were set out in the Order dated 04.01.2000 as under:- “2. The assesse before us is PAK-INDO-LANKA, JOINT MANA"
+          },
+          {
+            "index": 534,
+            "count": 4,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL ORIGINAL JURISDICTION WRIT PETITION (CRIMINAL) NO. 296 OF 2020 Satyama Dubey & Ors  Petitioner(s) Versus Union of India & Ors  Respondent(s) WITH Writ Petition (Crl) No.304/2020, Writ Petition (Crl) No.308/2020, Writ Petition (Crl) No.314/2020, AND Writ Petition (Crl) No.316/2020 JUDGMENT\n\nSignature Not Verified Digitally signed by\n\n1. The petitioners and all the intervening applicants in GULSHAN KUMAR ARORA Date: 2020.10.27 15:59:21 IST Reason: these matters have raised concern with regard to the WP (Crl) No.296/2020 etc.\n\nmanner in which a 19 years old girl hailing from Hathras, Uttar Pradesh is alleged to have been raped, brutally assaulted; due to which she lost her life and also the manner in which she was cremated. The Writ Petition (Crl) No.296/2020 was initially taken on board by this Court and notice was ordered to the respondents returnable in a week. In the meanwhile, the remaining petitions and the applications were filed in"
+          },
+          {
+            "index": 582,
+            "count": 7,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NOS. 2116­2128/2020 (Arising out of SLP(C) Nos. 326­338/2020) Bangalore Mysore Infrastructure Corridor Area Planning Authority & Anr....Appellant(s) Versus Nandi Infrastructure Corridor Enterprise Limited & Ors....Respondent(s) With CIVIL APPEAL NOS. 2129­2141/2020 (Arising out of SLP(C) Nos. 3166­3178/2020) JUDGMENT\n\nA.M. Khanwilkar, J.\n\n1. These appeals filed by Bangalore Mysore Infrastructure Corridor Area Planning Authority1 and the State of Karnataka2 are directed against the common judgment and order dated Signature Not Verified Digitally signed by DEEPAK SINGH Date: 2020.05.19 15:37:08 IST Reason: 1 For short, “the Planning Authority” 2 For short, “the State”\n\n15.10.2019 passed by the High Court of Karnataka at Bengaluru 3 in Writ Petition Nos. 16576­16577/2015 and 18481­18491/2015 (GM­RES), whereby the High Court quashed the communication bearing No. BMICAPA/339/Praa.Pra.Pa./1541/2011­12 dated\n\n7"
+          },
+          {
+            "index": 601,
+            "count": 3,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO.3093 OF 2020 (ARISING OUT OF SLP(C) NO. 23478 OF 2019) THE NEW INDIA ASSURANCE COMPANY LIMITED...APPELLANT VERSUS SMT. SOMWATI AND OTHERS...RESPONDENTS WITH CIVIL APPEAL NO.3094 OF 2020 (ARISING OUT OF SLP(C) NO. 4801 OF 2020) THE NEW INDIA ASSURANCE COMPANY LIMITED...APPELLANT VERSUS SMT. SANGITA AND OTHERS...RESPONDENTS WITH CIVIL APPEAL NO.3095 OF 2020 (ARISING OUT OF SLP(C) NO. 4643 OF 2020) THE NEW INDIA ASSURANCE COMPANY LIMITED...APPELLANT VERSUS AZMATI KHATOON AND OTHERS...RESPONDENTS WITH CIVIL APPEAL NO.3096 OF 2020 (ARISING OUT OF SLP(C) NO. 5441 OF 2020) CHOLAMANDALAM MS GENERAL INSURANCE COMPANY LIMITED Signature Not Verified Digitally signed by...APPELLANT MEENAKSHI KOHLI Date: 2020.09.07 15:25:04 IST VERSUS UMARANI AND OTHERS...RESPONDENTS Reason:\n\nWITH CIVIL APPEAL NO.3097 OF 2020 (ARISING OUT OF SLP(C) NO. 6381 OF 2020) THE NEW INDIA ASSURANCE COMPANY LIMITED...APPELLANT VERSUS SMT. P"
+          },
+          {
+            "index": 624,
+            "count": 46,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL ORIGINAL JURISDICTION WRIT PETITION (CIVIL) NO. 1031 OF 2019 ANURADHA BHASIN...PETITIONER VERSUS UNION OF INDIA AND ORS....RESPONDENT(S) And WRIT PETITION (CIVIL) NO. 1164 OF 2019 GHULAM NABI AZAD...PETITIONER VERSUS UNION OF INDIA AND ANR....RESPONDENT(S) JUDGMENT\n\nTABLE OF CONTENTS Introduction A Contentions B Issues C Production of Orders D Fundamental Rights under Part III and restrictions E thereof Signature Not Verified Digitally signed by Internet Shutdown F GEETA AHUJA Date: 2020.01.10 12:44:27 IST Reason: Restrictions under Section 144, Cr.P.C. G\n\nFreedom of the Press H Conclusion I N. V. RAMANA, J. A. INTRODUCTION “It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness,\n\nit was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we "
+          }
+        ],
+        "U+FFFD": [
+          {
+            "index": 1612,
+            "count": 63,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 3430 OF 2012 (arising out of SLP (C) No.34815/2011) Premji Nathu b�& Appellant Versus State of Gujarat and another b�& Respondents J U D G M E N T\n\nG.S. SINGHVI, J.\n\n1. Whether the application submitted by the appellant under [Section 18(1)] of the Land Acquisition Act, 1894 (for short, b�\u0018the Actb�\u0019) was barred by time and Civil Judge (Senior Division), Junagadh (hereinafter described as the b�\u0018Reference Courtb�\u0019) rightly refused to entertain his prayer for enhancement of the compensation determined by the Special Land Acquisition Officer is the question which arises for consideration in this appeal filed against judgment dated 16.8.2011 of the learned Single Judge of the Gujarat High Court.\n\n2. The appellantb�\u0019s land was acquired by the State Government along with other parcels of land for implementation of Mendarda b�\u0013 Amrapur Road Scheme. Notification under Section 4(1) was issued on 4.3.1982 and"
+          },
+          {
+            "index": 1630,
+            "count": 29,
+            "snippet": "Reportable IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION CRIMINAL APPEAL No. 65 of 2008 Hiralal Pandey and Ors. b�&b�& Appellants Versus State of U.P. b�&.. Respondent J U D G M E N T\n\nA. K. PATNAIK, J. This is an appeal by way of special leave under Article 136 of the Constitution of India against the judgment and order dated 06.02.2007 of the Allahabad High Court in Criminal Appeal No.178 of 1981.\n\n2. The facts very briefly are that on 22.09.1979 at 8.05 p.m. Balbir Singh, the complainant, lodged an FIR with Police Chowki Dhata, P.S. Khakhreru in District Fatehpur. The prosecution story as stated in the FIR was that on 22.09.1979 the complainant was returning home after purchasing crude oil from Khaga and Raja Ram Singh (his father) and Kunj Behari Singh were waiting for him at Dhata and he left the oil at Dhata and the three sat on the Motorcycle No.UTY 3213. Kunj Behari Singh drove the motorcycle and when they reached near bamboo clumps ahead of Kanya Pathshala on D"
+          },
+          {
+            "index": 1663,
+            "count": 116,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION CRIMINAL APPEAL NOS.166-167 OF 2010 Ramnaresh & Ors. b�& Appellants Versus State of Chhattisgarh b�& Respondent J U D G M E N T\n\nSwatanter Kumar, J.\n\n1. The present appeals are directed against the concurrent judgments of conviction and award of capital punishment. The Additional Sessions Judge, Pendra Road, District Bilaspur, convicted the four accused (the appellants herein), for offences under Sections 499, 376(2)(g) and 302 read with Section 34 of the Indian Penal Code, 1860 (for short b�\u0018IPCb�\u0019) and sentenced them vide judgment and order of sentence dated 20th November, 2007 as follows:\n\n|Offences |Punishment/Sentence | |302/34 IPC |Award of capital sentence and ordered| | |that they be hanged till death. | |376(2)(g) IPC |Life Imprisonment and fine of | | |Rs.200/- each. In case of default in| | |the payment of fine, each accused to | | |further undergo an additional | | |rigorous imprisonment of one month |"
+          },
+          {
+            "index": 1753,
+            "count": 32,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 3550 OF 2012 (Arising out of SLP(C) No. 27600 of 2011) Vijay Singh b�&Appellant Versus State of U.P. & Ors. b�&Respondents O R D E R\n\n1. Leave granted.\n\n2. This appeal has been preferred against the impugned judgment and order dated 19.7.2011 passed by the High Court of Judicature at Allahabad in CMWP No. 39609 of 2011, wherein the case of the appellant against the order of punishment in disciplinary proceedings has been rejected as the revisional authority had held that against the order passed by the disciplinary authority, the revision was not maintainable. The High Court held that on such facts the writ petition was not worth entertaining.\n\n3. The instant case is an eye opener as it reveals as to what extent the superior statutory authorities decide the fate of their subordinates in a casual and cavalier manner without application of mind and then expect them to maintain complete discipline merel"
+          },
+          {
+            "index": 1792,
+            "count": 86,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION 1 CIVIL APPEAL NO. 3337 OF 2012 (Arising out of S.L.P. (Civil) No. 6300 of 2006) State of Kerala & Anr  Appellant(s) Versus P.V. Mathew (Dead) by L.Rs  Respondent(s) J U D G M E N T\n\nP.Sathasivam,J.\n\n1) Leave granted. 2) This appeal is directed against the final judgment and order dated\n\n02.12.2005 passed by the High Court of Kerala at Ernakulam in C.R.P. No. 1587 of 1999 whereby the High Court while affirming the order dated\n\n04.12.1998 of the District Judge, Thrissur in C.M.A. No. 16 of 1997 dismissed the revision petition filed by the State of Kerala, the appellant herein. 3) Brief facts: (a) According to the prosecution, a case was registered as C.R. No. 5 of 1990 in Vazhachal Range in Vazhachal Forest Division of Kerala on the allegation of illicit killing of a wild elephant. During the course of investigation, three persons, viz., Nelladan George, Madhura Johny and Chirayath Jose were taken into custody and que"
+          },
+          {
+            "index": 1838,
+            "count": 9,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO(s). 4990 OF 2003 MULCHAND KHANUMAL KHATRI Appellant (s) VERSUS STATE OF GUJARAT & ORS. Respondent(s) J U D G M E N T\n\nR.M. Lodha, J. The judgment and order dated December 26, 2002 passed by the Gujarat High Court is under challenge in this Appeal by special leave.\n\n2. The appellant claims to be joint owner of the land being Survey No. 11430 admeasuring 34 sq. mtr. at Palanpur, Gujarat. On April 1, 1980, a notification was issued under Section 4 of the Land Acquisition Act, 1894 (for short, b�\u0018the Actb�\u0019) that proposed acquisition of the appellantb�\u0019s land and some other land for the public purpose, namely, construction of Palanpur City and taluka Police Station. The said notification was published in the Government Gazette on January 8, 1981. Later on, Section 4 notification was revised and published in the Official Gazette on September 22, 1983. The declaration under Section 6 was published on Januar"
+          },
+          {
+            "index": 1930,
+            "count": 65,
+            "snippet": "|REPORTABLE | IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO.3373 OF 2012 (Arising out of SLP(C)No.5776 of 2012) 1 CHAUGULE b�& APPELLANT Vs. 2 BHAGWAT b�& RESPONDENT J U D G M E N T\n\nALTAMAS KABIR, J.\n\n1. Leave granted.\n\n2. The Appellant herein was elected to the Maharashtra Legislative Assembly from the 240-Omerga Legislative Assembly Constituency, which was reserved for a Scheduled Caste candidate. His election was challenged by one Shri Yadavrao, son of Bhimrao Suryawanshi, who was also a Scheduled Caste candidate. In order to contest the elections, the said Shri Yadavrao had filed three nomination forms which were all rejected by the Returning Officer on the ground that the proposerb�\u0019s name was not included in the votersb�\u0019 list. Accordingly, the Returning Officer found Shri Yadavrao to be ineligible to contest the said elections as a candidate.\n\n3. On 26th September, 2009, Shri Yadavrao filed Writ Petition No.6474 of 2009, challenging the rejection of"
+          },
+          {
+            "index": 1950,
+            "count": 54,
+            "snippet": "|REPORTABLE | IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO.3393 OF 2012 (Arising out of SLP(C)No.3655 of 2007) 1 MAHESHWARI PRASAD & ORS. b�& APPELLANTS Vs. 2 STATE OF JHARKHAND & ORS. b�& RESPONDENTS WITH CIVIL APPEAL NOS.3394-3395 OF 2012 (Arising out of SLP(C)Nos.14397-14398 of 2008) 1 SRI PRAYAG MEHRA b�& APPELLANT Vs. 3 STATE OF JHARKHAND & ORS. b�& RESPONDENTS J U D G M E N T\n\nALTAMAS KABIR, J.\n\n1. Leave granted.\n\n2. These Appeals are directed against the judgment and order dated 14th September, 2006, passed by the Jharkhand High Court in L.P.A. No.229 of 2006, dismissing the same. The said Letters Patent Appeal was directed against the judgment and order passed by the learned Single Judge on 13th April, 2006 in W.P.(S) No.831 of 2006, and was disposed of in terms of an earlier order passed by the High Court in W.P.(S) NO.5459 of 2005. L.P.A. No.729 of 2005, preferred by the said Writ Petitioners, was dismissed by a Division Bench of the Jharkhand Hi"
+          },
+          {
+            "index": 1956,
+            "count": 52,
+            "snippet": "REPORTABLE IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION 1 CRIMINAL APPEAL No. 612 OF 2012 (Arising out of S.L.P. (Crl.) No. 9953 of 2010) Bhushan Kumar & Anr  Appellant(s) Versus State (NCT of Delhi) & Anr  Respondent(s) WITH 2 CRIMINAL APPEAL No. 613 OF 2012 (Arising out of S.L.P. (Crl.) No. 9958 of 2010 J U D G M E N T\n\nP.Sathasivam,J.\n\n1) Leave granted. 2) These appeals are directed against the final judgment and order dated\n\n30.07.2010 passed by the High Court of Delhi at New Delhi in Crl.M.C. Nos. 3376 & 3375 of 2009 whereby the High Court rejected the prayer of the appellants herein for quashing the summoning order dated 16.01.2009 passed by the Metropolitan Magistrate in FIR No. 290 of 2002 registered at Police Station, Okhla Industrial Area, New Delhi under Section 420 of the Indian Penal Code, 1860 (hereinafter referred to as b� the IPCb�).\n\n3) Brief facts: a) The present cases pertain to a property dispute regarding\n\ndistribution of the assets left behind by "
+          },
+          {
+            "index": 1966,
+            "count": 84,
+            "snippet": "NON-REPORTABLE IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION CIVIL APPEAL NOS. 2970-2971 OF 2012 Maniben Devraj Shah b�& Appellant(s) Versus Municipal Corporation of Brihan Mumbai b�& Respondent J U D G M E N T\n\nG. S. Singhvi, J.\n\n1. Whether the cause shown by Municipal Corporation of Brihan Mumbai (for short, b�\u0018the Corporationb�\u0019) for condonation of 7 years and 108 days delay in filing appeals against judgments and decrees dated 2.5.2003 passed by the City Civil Court (hereinafter referred to as b�\u0018the trial Courtb�\u0019) in L.C. Suit Nos. 2726, 2727, 2728 of 1999 was sufficient cause within the meaning of Section 5 of the Limitation Act and the learned Single Judge of the Bombay High Court was justified in condoning the delay is the question which arises for consideration in these appeals.\n\n2. At the outset, it deserves to be mentioned that the respondent had withdrawn one of the three appeals filed before the High Court and, as such, the impugned order makes a reference to"
+          }
+        ]
+      },
+      "sample_count": 199
+    },
+    "hc": {
+      "source": "hc",
+      "filename": "train_high_courts.json",
+      "records": 2536738,
+      "no_text_field": 0,
+      "empty_text": 0,
+      "total_chars": 9838813027,
+      "total_words": 1594919242,
+      "mean_chars": 3878.5294449012868,
+      "median_chars": 1656.0,
+      "percentile_chars": {
+        "1": 219.0,
+        "5": 390.0,
+        "25": 891.0,
+        "50": 1656.0,
+        "75": 3023.0,
+        "95": 12614.0,
+        "99": 42042.0,
+        "99.9": 138915.26300000027
+      },
+      "duplicate_rate": 0.046688700212635284,
+      "exact_duplicates": 118437,
+      "script_character_counts": {
+        "Devanagari": 140319,
+        "Bengali": 164,
+        "Telugu": 667,
+        "Malayalam": 4250,
+        "Gurmukhi": 1,
+        "Kannada": 3
+      },
+      "suspicious_character_counts": {},
+      "unicode_top_50": [
+        [
+          "U+2026",
+          278215
+        ],
+        [
+          "U+00BD",
+          46214
+        ],
+        [
+          "U+0080",
+          29046
+        ],
+        [
+          "U+00B7",
+          28257
+        ],
+        [
+          "U+00E2",
+          27866
+        ],
+        [
+          "U+201C",
+          19182
+        ],
+        [
+          "U+201D",
+          18400
+        ],
+        [
+          "U+00BC",
+          18328
+        ],
+        [
+          "U+2016",
+          17716
+        ],
+        [
+          "U+00A6",
+          17445
+        ],
+        [
+          "U+20AC",
+          14965
+        ],
+        [
+          "U+00E0",
+          14663
+        ],
+        [
+          "U+093E",
+          14294
+        ],
+        [
+          "U+0915",
+          13389
+        ],
+        [
+          "U+0930",
+          10988
+        ],
+        [
+          "U+20B9",
+          10590
+        ],
+        [
+          "U+093F",
+          8544
+        ],
+        [
+          "U+00C2",
+          8204
+        ],
+        [
+          "U+00A7",
+          7690
+        ],
+        [
+          "U+00BE",
+          7363
+        ],
+        [
+          "U+092F",
+          7102
+        ],
+        [
+          "U+094D",
+          6786
+        ],
+        [
+          "U+009C",
+          6616
+        ],
+        [
+          "U+00A9",
+          6468
+        ],
+        [
+          "U+0928",
+          6222
+        ],
+        [
+          "U+009D",
+          6119
+        ],
+        [
+          "U+2017",
+          6045
+        ],
+        [
+          "U+092A",
+          5849
+        ],
+        [
+          "U+0905",
+          5401
+        ],
+        [
+          "U+0938",
+          5320
+        ],
+        [
+          "U+0927",
+          5232
+        ],
+        [
+          "U+00C3",
+          4945
+        ],
+        [
+          "U+00A3",
+          4849
+        ],
+        [
+          "U+00AE",
+          4789
+        ],
+        [
+          "U+00AB",
+          4763
+        ],
+        [
+          "U+092E",
+          4752
+        ],
+        [
+          "U+00AA",
+          4727
+        ],
+        [
+          "U+0924",
+          4292
+        ],
+        [
+          "U+00A5",
+          4147
+        ],
+        [
+          "U+00B1",
+          4051
+        ],
+        [
+          "U+0099",
+          4042
+        ],
+        [
+          "U+00D8",
+          3783
+        ],
+        [
+          "U+0093",
+          3742
+        ],
+        [
+          "U+0936",
+          3683
+        ],
+        [
+          "U+25A0",
+          3679
+        ],
+        [
+          "U+0947",
+          3567
+        ],
+        [
+          "U+0940",
+          3371
+        ],
+        [
+          "U+0932",
+          3355
+        ],
+        [
+          "U+00B0",
+          3147
+        ],
+        [
+          "U+2019",
+          2996
+        ]
+      ],
+      "mojibake_documents": 52,
+      "keysets": [
+        {
+          "keys": [
+            "bench",
+            "char_count",
+            "court",
+            "court_id",
+            "filepath",
+            "page_count",
+            "text",
+            "word_count",
+            "year"
+          ],
+          "count": 2536738
+        }
+      ],
+      "suspicious_examples": {},
+      "sample_count": 199
+    },
+    "trib": {
+      "source": "trib",
+      "filename": "train_tribunals.json",
+      "records": 869132,
+      "no_text_field": 0,
+      "empty_text": 0,
+      "total_chars": 6051658029,
+      "total_words": 975917446,
+      "mean_chars": 6962.875637992848,
+      "median_chars": 3649.0,
+      "percentile_chars": {
+        "1": 349.0,
+        "5": 996.0,
+        "25": 2150.0,
+        "50": 3649.0,
+        "75": 7279.0,
+        "95": 21711.0,
+        "99": 53735.06999999983,
+        "99.9": 148404.67300000752
+      },
+      "duplicate_rate": 0.0056769282456519835,
+      "exact_duplicates": 4934,
+      "script_character_counts": {
+        "Devanagari": 80129280,
+        "Kannada": 4105,
+        "Bengali": 68,
+        "Telugu": 12382,
+        "Tamil": 1004,
+        "Gujarati": 4100510,
+        "Gurmukhi": 25,
+        "Malayalam": 1619
+      },
+      "suspicious_character_counts": {
+        "U+F0B7": 55833,
+        "U+FFFD": 2929243
+      },
+      "unicode_top_50": [
+        [
+          "U+093E",
+          7822252
+        ],
+        [
+          "U+0915",
+          5223226
+        ],
+        [
+          "U+0930",
+          5170930
+        ],
+        [
+          "U+094D",
+          4876503
+        ],
+        [
+          "U+093F",
+          4238055
+        ],
+        [
+          "U+0928",
+          3742769
+        ],
+        [
+          "U+0940",
+          3542504
+        ],
+        [
+          "U+0924",
+          3282246
+        ],
+        [
+          "U+092A",
+          3215117
+        ],
+        [
+          "U+092F",
+          3064271
+        ],
+        [
+          "U+0938",
+          2997258
+        ],
+        [
+          "U+FFFD",
+          2929243
+        ],
+        [
+          "U+0947",
+          2860623
+        ],
+        [
+          "U+0935",
+          2368843
+        ],
+        [
+          "U+0926",
+          2153114
+        ],
+        [
+          "U+092E",
+          2139934
+        ],
+        [
+          "U+0902",
+          1932863
+        ],
+        [
+          "U+0932",
+          1689103
+        ],
+        [
+          "U+0939",
+          1554489
+        ],
+        [
+          "U+0917",
+          1538741
+        ],
+        [
+          "U+094B",
+          1500521
+        ],
+        [
+          "U+0905",
+          1160308
+        ],
+        [
+          "U+0941",
+          1140748
+        ],
+        [
+          "U+091C",
+          1093340
+        ],
+        [
+          "U+092C",
+          919444
+        ],
+        [
+          "U+0936",
+          843429
+        ],
+        [
+          "U+0925",
+          789109
+        ],
+        [
+          "U+0906",
+          772641
+        ],
+        [
+          "U+0948",
+          650204
+        ],
+        [
+          "U+0942",
+          635233
+        ],
+        [
+          "U+0923",
+          606960
+        ],
+        [
+          "U+0909",
+          600468
+        ],
+        [
+          "U+0927",
+          593470
+        ],
+        [
+          "U+0964",
+          573689
+        ],
+        [
+          "U+091A",
+          553194
+        ],
+        [
+          "U+0937",
+          532962
+        ],
+        [
+          "U+090F",
+          476705
+        ],
+        [
+          "U+092D",
+          438853
+        ],
+        [
+          "U+0ABE",
+          434841
+        ],
+        [
+          "U+00BC",
+          428165
+        ],
+        [
+          "U+00A7",
+          420634
+        ],
+        [
+          "U+091F",
+          413269
+        ],
+        [
+          "U+00BD",
+          377489
+        ],
+        [
+          "U+008A",
+          371197
+        ],
+        [
+          "U+00A2",
+          351433
+        ],
+        [
+          "U+0916",
+          350612
+        ],
+        [
+          "U+0908",
+          333738
+        ],
+        [
+          "U+0AC7",
+          285865
+        ],
+        [
+          "U+00FF",
+          282465
+        ],
+        [
+          "U+00F8",
+          276021
+        ]
+      ],
+      "mojibake_documents": 713,
+      "keysets": [
+        {
+          "keys": [
+            "char_count",
+            "date",
+            "text",
+            "title",
+            "tribunal",
+            "word_count",
+            "year"
+          ],
+          "count": 869132
+        }
+      ],
+      "suspicious_examples": {
+        "U+F0B7": [
+          {
+            "index": 980,
+            "count": 3,
+            "snippet": "Appellate Tribunal For Electricity M/S Ferro Alloys Corporation Limited vs Odisha Electricity Regulatory ... on 2 January, 2013 Appellate Tribunal for Electricity (Appellate Jurisdiction)\n\nDated: 2nd January, 2013 Present: HON'BLE MR. JUSTICE PARTHA SAKHA DATTA, JUDICIAL MEMBER\n\nHON'BLE MR. V J TALWAR, TECHNICAL MEMBER,\n\nIN THE MATTER OF:\n\nM/s Ferro Alloys Corporation Limited Randia, Bhadrak Odisha .... Appellant Versus\n\n1. Odisha Electricity Regulatory Commission Bidyut Niyamak Bhawan, Unit-VIII Bhubaneswar -751012, Odisha\n\n2. North Eastern Electricity Supply Company of Orissa N/22, IRC Village, Nayapalli Bhubaneswar - 751 022, Odisha .... Respondent(s)\n\nIN THE MATTER OF:\n\nM/s Tata Steel Limited Plot No 273, Bhouma Nagar, Unit IV, Bhubaneshwar, Odisha .... Appellant Versus\n\n1. Odisha Electricity Regulatory Commission Bidyut Niyamak Bhawan, Unit-VIII Bhubaneswar -751012, Odisha\n\n2. North Eastern Electricity Supply Company of Orissa N/22, IRC Village, Nayapalli Bhubaneswar - 751 022, Od"
+          },
+          {
+            "index": 1055,
+            "count": 10,
+            "snippet": "Appellate Tribunal For Electricity Reliance Infrastructure Limited vs The Maharahtra Electricity Regulatory ... on 17 April, 2013 Appellate Tribunal for Electricity (Appellate Jurisdiction)\n\nDated: 17th April, 2013 Present : HON'BLE MR. JUSTICE M KARPAGA VINAYAGAM,\n\nCHAIRPERSON\n\nHON'BLE MR. RAKESH NATH, TECHNICAL\n\nMEMBER\n\nIn the Matter of:\n\nRELIANCE Infrastructure Limited, a Public Limited company incorporated under the provisions of the Indian Companies Act, 1913 having its registered office at H Block, 1st Floor, Dhirubhai Ambani Knowledge City Navi Mumbai-400710. ...Appellant Versus\n\n1. The Maharahtra Electricity Regulatory Commission World Trade Centre No.1 13th Floor, Cuffe Parade, Colaba, Mumbai-400001.\n\n2. Mumbai Grahak Panchayat, Grahak Bhavan, Sant Dnyaneshwar Marg, Behind Cooper Hospital, Vile Parle(W)\n\nMumbai-400 056.\n\n3. Prayas (Energy Group)\n\nAmrita Clinic, Athawale Corner, Karve Road, Lakdipool-Karve Road, Pune-411 004.\n\n4. Thane Belapur Industries, Plot No.P-14, MIDC, Ra"
+          },
+          {
+            "index": 1410,
+            "count": 3,
+            "snippet": "Appellate Tribunal For Electricity Gujarat Electricity Transmission ... vs Gujarat Electricity Regulatory ... on 13 October, 2015 In the Appellate Tribunal for Electricity, New Delhi (Appellate Jurisdiction)\n\nDated: 13th October, 2015 Present: Hon'ble Mrs. Justice Ranjana P. Desai, Chairperson Hon'ble Mr. I.J. Kapoor, Technical Member In the matter of:\n\nGujarat Electricity Transmission Corporation Ltd ...Appellant/ Sardar Patel Vidyut Bhavan, Race Course Petitioner Vadodara - 390 007 (Gujarat)\n\nVersus\n\n1. Gujarat Electricity Regulatory Commission 6th Floor, GIFT ONE Road 5C, Zone 5, GIFT City Gandhinagar - 382 355 Gujarat\n\n2. M/s. OPGS Power Gujarat Private Limited No. 6, Sardar Patel Road Guindy, Chenenai - 600 032 ...Respondent(s)\n\nCounsel for the Appellant : Mr. M.G. Ramachandran Mr. Anand K. Ganesan Ms. Swapna Seshadri Ms. Anusha Bardhan Ms. Ranjitha Ramachandran Ms. Poorva Saigal Mr. Shubham Arya Counsel for the Respondent : Ms. Suparna Srivastava and Mr. S.R. Panday (Rep.)\n\nMs. A"
+          },
+          {
+            "index": 1754,
+            "count": 2,
+            "snippet": "Appellate Tribunal For Electricity Himalaya Power Producers Association ... vs Uttrakhand Electricity Regulatory ... on 9 August, 2017 In the Appellate Tribunal for Electricity, New Delhi (Appellate Jurisdiction)\n\nAND\n\nDated: 9th August, 2017 Present: Hon'ble Mrs. Justice Ranjana P. Desai, Chairperson Hon'ble Mr. I. J. Kapoor, Technical Member In the matter of :- Himalaya Power Producers Association (HPPA)\n\nHIMURJA, SDA Complex Block No. 8-A, Kasumpti Shimla - 171 009 ... Appellant Versus\n\n1. Power Transmission Corporation of Uttarakhand Ltd. (PTCUL)\n\nVidyut Bhawan, Near ISBT Crossing Saharanpur Road, Majra Dehradun - 248 002 Uttrakhand ...Respondent No.1\n\n2. Uttrakhand Electricity Regulatory Commission (UERC)\n\nVidyut Niyamak Bhawan Near ISBT, Majra Dehradun - 248 171 Uttrakhand ...Respondent No. 2 Counsel for the Appellant(s): Mr. Anand K. Ganesan Ms. Swapna Seshadri Ms. Neha Garg Mr. Sandeep Rajpurohit Ms. Saloni Sacheti Counsel for the Respondent(s): Mr. Sarul Jain Mr. S.P. Arya Ms."
+          },
+          {
+            "index": 2159,
+            "count": 11,
+            "snippet": "Appellate Tribunal For Electricity Maharashtra Eastern Grid Power vs Maharashtra Electricity Regulatory ... on 24 July, 2020\n\nIN THE APPELLATE TRIBUNAL FOR ELECTRICITY (Appellate Jurisdiction)\n\nDated: 24th July, 2020 Present: Hon'ble Mrs. Justice Manjula Chellur, Chairperson Hon'ble Mr. S.D. Dubey, Technical Member In the matter of:\n\nMaharashtra Eastern Grid Power Transmission Company Limited, Adani House, Nr. Mithakhali Circle, Navarangpura, Ahmedabad - 380009 ....APPELLANT Versus Maharashtra Electricity Regulatory Commission World Trade Centre, Centre No.1, 13th Floor, Cuffe Parade, Mumbai 400 005 ...RESPONDENT Counsel for the Appellant : Mr. Sanjay Sen, Sr. Adv.\n\nMr. Hemant Singh Mr. Nishant Kumar Mr. Tushar Srivastava Mr. Ambuj Dixit Counsel for the Respondent (s) : Mr. S.K. Rungta, Sr. Adv.\n\nMs. Pratiti Rungta for R-1\n\nJUDGMENT\n\nPER HON'BLE MR. S. D. DUBEY, TECHNICAL MEMBER\n\n1. The present Appeal has been filed by M/s Maharashtra Eastern Grid Power Transmission Company Limited (he"
+          },
+          {
+            "index": 2212,
+            "count": 16,
+            "snippet": "Appellate Tribunal For Electricity Clearsky Solar Private Limited vs Karnataka Electricity Regulatory ... on 2 August, 2021\n\nTHE APPELLATE TRIBUNAL FOR ELECTRICITY\n\nAT NEW DELHI\n\n(APPELLATE JURISDICTION)\n\nAPPEAL NO. 160 OF 2020 & IA No. 1019 OF 2020 Dated: 2nd August, 2021 Present: Hon'ble Mrs. Justice Manjula Chellur, Chairperson Hon'ble Mr. Ravindra Kumar Verma, Technical Member In the matter of:- Clearsky Solar Private Limited Through its Authorised Signatory Having its Corporate Office at 8-2-268/2/B/3, Road No.2, Banjara Hills, Hyderabad - 500 034 ... Appellant Versus\n\n1. Karnataka Electricity Regulatory Commission Through its Secretary No. 16, Millers Tank Bed Area, Vasanth Nagar, Bengaluru - 560 052\n\n2. Gulbarga Electricity Supply Company Limited Through its Managing Director Station Road, Kalburagi - 585 012\n\n3. Karnataka Renewable Energy Development Limited Through its Managing Director No. 39, \"Shanthi Gruha\"\n\nBharat Scouts & Guides Building Palace Road, Bengaluru - 560 001\n\n"
+          },
+          {
+            "index": 2241,
+            "count": 11,
+            "snippet": "Appellate Tribunal For Electricity M/S Solitaire Btn Solar Private Limited vs Tamil Nadu Electricity Regulatory ... on 5 July, 2021\n\nIN THE APPELLATE TRIBUNAL FOR ELECTRICITY (Appellate Jurisdiction)\n\nAPL No. 67 OF 2021 & IA No. 150 OF 2021 & IA No. 1703 OF 2020 & IA No. 159 OF 2021 & IA No. 382 OF 2021 & IA No. 434 OF 2021 & IA No. 524 OF 2021 & IA No. 583 OF 2021 Dated: 5th July, 2021 Present: Hon`ble Mrs. Justice Manjula Chellur, Chairperson Hon'ble Mr. Ravindra Kumar Verma, Technical Member In the matter of:\n\nM/s Solitaire BTN Solar Private Limited Through : Authorised Signatory 239, Okhla Industrial Estate, Phase-II, New Delhi -110020 .... Appellant(s)\n\nVersus\n\n1. Tamil Nadu Electricity Regulatory Commission Through : Secretary 4thFloor, SIDCO Corporate Office Building Thiru VI KA Industrial Estate, Guindy, Chennai - 600 032 .... Respondent No.1 Tamil Nadu Generation & Distribution\n\n2. Corporation Limited (TANGEDCO)\n\nThrough: Chairperson / MD 144, Anna Salai, Chennai - 02, Tamil N"
+          },
+          {
+            "index": 2243,
+            "count": 4,
+            "snippet": "Appellate Tribunal For Electricity M/S. Greenyana Solar Private Limited vs Haryana Electricity Regulatory ... on 20 September, 2021\n\nIN THE APPELLA TE TRIBUNAL FOR ELECTRICITY (Appellate Jurisdiction)\n\nDated: 20th September, 2021 Present: Mr.Ravindra Kumar Verma, Officiating Chairperson Mr. Justice R.K. Gauba, Judicial Member In the matter of:\n\nM/s. Greenyana Solar Private Limited, Unit No. 903, 9th Floor, EROS Corporate Tower, .... Appellant(s)\n\nNehru Place, New Delhi - 110019 Versus\n\n1. Haryana Electricity Regulatory Commission, Through its Secretary, Bays 33-36, Sector 4, Panchkula - 134112 .... Respondent No.1\n\n2. Haryana Vidyut Prasaran Nigam Ltd., Through its Managing Director, Shakti Bhawan, Sector-6, Panchkula - .... Respondent No.2 134109\n\n3. Uttar Haryana Bijli Vitran Nigam Limited, Through its Chairman-cum-Managing Director, Vidyut Sadan, Sector-6, Panchkula -134109 .... Respondent No.3\n\n4. Dakshin Haryana Bijli Vitran Nigam Limited, Through its Chairman-cum-Managing Directo"
+          },
+          {
+            "index": 2252,
+            "count": 10,
+            "snippet": "Appellate Tribunal For Electricity National Solar Energy Federation Of ... vs Tamil Nadu Electricity Regulatory ... on 2 August, 2021\n\nAPPELLATE TRIBUNAL FOR ELECTRICITY AT NEW DELHI\n\n(APPELLATE JURISDICTION)\n\nAPPEAL NO. 197 of 2019 & IA NO. 1706 of 2019 Dated : 2nd August, 2021 Present: Hon'ble Mrs. Justice Manjula Chellur, Chairperson Hon'ble Mr. Ravindra Kumar Verma, Technical Member\n\nIN THE MATTER OF :\n\nNational Solar Energy Federation of India Having office at 702, Chirajiv Tower 43- Nehru Palace New Delhi - 110 019.\n\nThrough Authorized Representative ... Appellant Versus\n\n1. Tamil Nadu Electricity Regulatory Commission No 19-A, Rukmini Lakshmipathy Salai (Marshalls Road), Egmore, Chennai - 600 008\n\n2. Tamil Nadu Generation and Distribution Corpn. Ltd. (TANGEDCO)\n\nRep. by its Chairman No.144, Anna Salai Chennai - 600 002.\n\n3. Tamil Nadu State Load Despatch Centre (TNSLDC)\n\nRep. by its Chairman (TANTRANSCO Ltd.)\n\nNo.144, Anna Salai Chennai - 600 002.\n\n4. Tamil Nadu Transmission Cor"
+          },
+          {
+            "index": 2264,
+            "count": 6,
+            "snippet": "Appellate Tribunal For Electricity Sai Wardha Power Generation Pvt Ltd vs Maharashtra Electricity Regulatory ... on 26 November, 2021\n\nIN THE APPELLA TE TRIBUNAL FOR ELECTRICITY (Appellate Jurisdiction)\n\nAPL NO. 106 OF 2018 & IA NO. 513 OF 2018 & IA NO. 32 OF 2019,\n\nAPL NO. 136 OF 2018 & IA NO. 625 OF 2018,\n\nAPL NO. 146 OF 2018 & IA NO. 662 OF 2018,\n\nAPL NO. 147 OF 2018 & IA NO. 666 OF 2018, APL NO. 150 OF 2018 & IA NO. 674 OF 2018 & IA NO. 503 OF 2019,\n\nAPL NO. 152 OF 2018 & IA NO. 702 OF 2018,\n\nAPL NO. 205 OF 2018,\n\nAPL NO. 234 OF 2018, APL NO. 340 OF 2018 & IA NO. 1636 OF 2018 & IA NOS. 31 & 70 OF 2019, APL NO. 341 OF 2018 & IA NO. 1638 OF 2018 & IA NOS. 34 & 71 OF 2019,\n\nAPL NO. 37 OF 2020 & IA NO. 2059 OF 2019,\n\nAPL NO. 38 OF 2020 & IA NO. 2060 OF 2019,\n\nAPL NO. 39 OF 2020 & IA NO. 2067 OF 2019,\n\nAPL NO. 40 OF 2020 & IA NO. 2065 OF 2019,\n\nAPL NO. 196 OF 2020 & IA NO. 1576 OF 2020,\n\nAPL NO. 197 OF 2020 &IA NO. 1562 OF 2020\n\nAPL NO. 198 OF 2020 &IA NO. 1621 OF 2020,\n\nAPL NO. 199 OF "
+          }
+        ],
+        "U+FFFD": [
+          {
+            "index": 6494,
+            "count": 47,
+            "snippet": "Central Administrative Tribunal - Hyderabad V.Lakshmikanth vs The Superintendent Of Post Offices on 19 December, 2008\n\nIN THE CENTRAL ADMINISTRATIVE TRIBUNAL: HYDERABAD BENCH: HYDERABAD\n\nO.A.No.425 of 2008 Date of Order:19.12.2008 Between:\n\n1. V.Lakshmikanth, s/o V.Venkataramudu, Occ:ED Packer, K.N.Puram PO, Kurnool Division & Secretary of AIPEDE Union, Kurnool Division, Kurnool District.\n\n2. P.Narayana, s/o P.Ramathimmayya, Officiating Postman, B Camp Sub Office, Kurnool.\n\n3. A.Chandranna, s/o A.P.Ramaiah, Officiating Postman, SAP Camp Sub Office, Kurnool. ..Applicants a n d\n\n1. The Superintendent of Post Offices, Kurnool Division, Kurnool District.\n\n2. The Post Master General, Kurnool Region, Kurnool District.\n\n3. The Union of India, rep., by its Director General of Posts, New Delhi-1.\n\n4. N.Narayana, Working as GDSMD, B Camp PO, Kurnool.\n\n5. S.A.Mazeed Saheb, Working as Branch Postmaster, Salkapuram, a/w K.N.Puram SO, Kurnool. ..Respondents Counsel for the Applicants : Mr.M.Venkanna"
+          },
+          {
+            "index": 10166,
+            "count": 1,
+            "snippet": "Central Administrative Tribunal - Delhi Unknown vs \\Par on 30 June, 2009 {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Bookman Old Style;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}} {\\stylesheet{ Normal;}{\\s1 heading 1;}{\\s2 heading 2;}} {\\*\\generator Msftedit 5.41.21.2500;}\\viewkind4\\uc1\\pard\\nowidctlpar\\li720\\qc\\b\\f0\\fs24 CENTRAL ADMINISTRATIVE TRIBUNAL\\par \\pard\\nowidctlpar\\qc PRINCIPAL BENCH\\par \\pard\\nowidctlpar\\b0\\par \\pard\\keepn\\nowidctlpar\\s2\\qc\\b OA No. 1903/2008\\par \\pard\\nowidctlpar\\qc\\b0\\par New Delhi, this the 30\\super th\\nosupersub day of June, 2009\\par \\b\\par HON\\rquote BLE MR. L.K.JOSHI, VICE CHAIRMAN (A)\\par HON\\rquote BLE DR. DHARAM PAUL SHARMA, MEMBER (J)\\b0\\par \\pard\\nowidctlpar\\par SI Prabhu Singh\\par Ex SI/RT No.3736/D,\\par Qr. No.50, Police Station Geeta Colony,\\par Delhi-110031.\\par Also at:\\par C/o Late Sh. Bhanwar Singh\\par R/o Vill. Dewakabas,\\par P.O. Dewakabas, Distt. Jaipur,\\par Rajasthan.\\par \\tab\\tab\\tab\\t"
+          },
+          {
+            "index": 10397,
+            "count": 883,
+            "snippet": "Central Administrative Tribunal - Bangalore )'S#\"Z)& E D6X Tcx Qa{Icf N 8R}Pe� + ... vs S.H N on 7 June, 2010 PK����BQPA^F2'���'������mimetypeapplication/vnd.oasis.opendocument.textPK����BQPA���������������Configurations2/statusbar/PK��BQPA������������'���Configurations2/accelerator/current.xml�PK�����������PK����BQPA���������������Configurations2/floater/PK����BQPA���������������Configurations2/popupmenu/PK����BQPA���������������Configurations2/progressbar/PK����BQPA���������������Configurations2/menubar/PK����BQPA���������������Configurations2/toolbar/PK����BQPA���������������Configurations2/images/Bitmaps/PK��BQPA���������������layout-cachecd`d(0d```d``3x$,�TF(GH9Sbd��PKeA6%���5���PK��BQPA���������������content.xmle[[s[:~__RTl%U:X>db9qb{cKFv2;0 IHH� -hfl~9y%su$hY2X]:g!6L4:__!f'?Mq#WV<i{[!Ldcm&o:/~R{UysA|d')}XFE*L^,Iq[`7q{auM'pf_J/}>)r{y4o3e*]{Mj}x|4^NDM]9z7]L47vJkv89;vr^v3QTfv m;y+OzTSLfzE/ 6_^tfymsy<?_i[7_?~=`UZa(&K 0U T\"H{CAE*\\6Uh*\"=V.542w,jo&-=bf:h&]k_`b[f] [w'nnMe>[`W3,r3S%/84-,"
+          },
+          {
+            "index": 14384,
+            "count": 487,
+            "snippet": "Central Administrative Tribunal - Chandigarh #/: | C~ Uqmm 6V,J ^X\" vs 9=Oo) 3~@Oom Myyz _]Nvk Xo:Xb=ZCk:.>J on 17 January, 2011 %PDF-1.3 %Gl\"\n\n8 0 obj <</Length 9 0 R/Filter /FlateDecode>> stream xm[YoGVNBa &6I6]Gtu)o<y7\"Dr$/%gzVnq}MCZZ]-m;6'&:j+3['\n\nJ72{^|rzdv:;zi?~6An+$|}uIskqZJ?GofRDdl?T r-p.q2>>~t|xY!:X-:~cvxq&9k,HPUfR+i3q>*t9eu-#yabkJ%2xpg.Sn/~mhJ T;Pv234gkRU7r*i-y`=A_=MK<wI(Ueup/\\'loRm� 4F-1c\\E%BpM\\%[~�2[Y\\`C0u=A�@>o3LtdzjdyMM?7?OTswL#k}rUeBc{F7N^Lw{cP!I&.tnMe:Il*e :%b$4aY1.v>Cr[0 hhj+0V6:-s:WEcUBnQR}JzIZXgp`CJ~ks3`U#$+2ijs\"Y40\\iQDG|lSJjc[vpv\"zcti\"VX|(N%lY&j}JPzcKP8a m#+xv;1BG9�@u }.'qw(/cvR'Q2}:l&%f{gpR!hFYEw~BB85IAN.Jt`jm1`cEwgAlnb2 %4zeIEP2Xf7�0[C:Oso0@ buuf>iaZ+<nR]KotRXG\"k~0oi*jkU- I2/6IN3Xd�a(y1'tMT<�==�c3ba)MCL7tUOkn$22udwX:RF{;J�Ww4b}^%<u/q<x]cTPNsS5uI)+>)SUf\\$2K#mEY_C}F2(P}]#X�M@ / 04 ROx)�PAByn?J)j�w�KI)/`j\".W <\\�n8?�Xd-~4*2?zM,+j{Tq@,`T5sn.:H[NexbeGV>y(x9?X$�^ 4�{/4`yp4�_@ gAW%^@.V|RIdoc!bN]MdvF4SUt]w+kpA (H`LHp2T+D-qz4[;j T5t1JlJj^N�EPS!Jvg<*zj(1O(1y7z8\\<\\e=EZFe`<Bg'"
+          },
+          {
+            "index": 14478,
+            "count": 253,
+            "snippet": "Central Administrative Tribunal - Chandigarh 1F_Si( _8Mc427 ^Z Qz?`M %O`Osyj&N&A <\\K ... vs +D on 19 January, 2011 %PDF-1.3 %Gl\"\n\n8 0 obj <</Length 9 0 R/Filter /FlateDecode>> stream xm\\Y]4K)=Su!takLkF;MY$$^zB5sV()H-_B 6{Im\\iC(>6s|Vo/O+qQUM~/,.n=4U_-VIfva_=)~=]B poacgu]x#/8QLJppsUAwY9f,R<t9|cupfl2RiS5=wz;6I/l_t!irLjE{&wr9.6M+y_tnS$Xm-eri~mZ8g\\wwb\\VoJT^c/Z*/N;F0|qhYlf5R.L|@a`Wri/f\\k)92j W\\s@/V<P-Z�];)]� `!WIrLKI|l$YM ?V?/xuw ;I++X9hf={lOUcif/5aBUWL8Vl# cBZVNA/<^x^dvRwK;A2ZP00j}(^Jj)Js]=<Wu?pV^t;6q/mnd=�TA@rfM\" BRT<6s Y4RuN0y L!CD:H[fj@MqMe]j8a^k#bSL}M\\SP7ijc-I`RV'&neZv=.f=h[Uh&,1}/K9n�:@@PROne]N\"3_8u;w;7Ivkb/,/7aFk%)V khT)F'!]_-%W!|q!r]+ Bzu=oB �P�W4^Hm9uNA^$}8<KgV|\"vV3[]:k)K|:Cj;2LYmE(q�^�`M�?N )I'yS'SU\"g=`?Me�>Ku&JQgy/v.5pRH>tg-dk:W&\"kH�2vb:qsE~/q2;'YieW9KFi ,2#lgFDwY8`!X$MB4hfV|7PpE0 or_LF=2`�'C�'A@@I!zNfSL `(��TnDlg6l?� 9b'%WRY@t E5#;cCRm#|rZ:N,1lVI-H6RZ.>x-)/~{ Z4iA*LS�=ij\"< u{\\g{t/Q^45.ITg$\"�Co\"5TBa^)6hcR;WPn=.8�4V[ZGC@$aRx!8 gXGk\\$#EK\\iy*PW@(IFC3�C[jsPRP6c9.7FSHZ50 C& ?\".a8Bd�QR!"
+          },
+          {
+            "index": 14480,
+            "count": 13852,
+            "snippet": "Central Administrative Tribunal - Ernakulam 23 on 13 October, 2011 ���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������"
+          },
+          {
+            "index": 14481,
+            "count": 9357,
+            "snippet": "Central Administrative Tribunal - Delhi 254 on 6 September, 2011 �����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������"
+          },
+          {
+            "index": 14484,
+            "count": 404,
+            "snippet": "Central Administrative Tribunal - Chandigarh 351 on 20 January, 2011 %PDF-1.3 %Gl\"\n\n8 0 obj <</Length 9 0 R/Filter /FlateDecode>> stream xm[Y/TE+:TP\\+8LS{b_x\\G{b4A} }azX_{M_afJc0';NuUWU5t?j$P:}M_n?\\=Z]9g;_Y=j\"0}?C/e_o?l~:JSr\"|oQ)EU'<AwAFrOW7{|hOU1yTO:zuu{yqH;oL4tB=kEqH*/c4tR? !)iheV~(lF^iG,1Dk^-)U)%TTv;8K{Vi{0kR8K:gN=G0|qxoqZ>+eQx@<c`kr/UR6i?Ak1tky6C�dWFv#Q,K0`�vyR`H3%I||T}2R]+ j\\YV Kf28~~mu ]l sBG.+Jx8}(*_CH*R>P!\"/K^c3}?NY-$ duF0k,6K4^g%cTF.WC7j!7F!-LXXP[u, i0?9UkL6K^EwJfmH%vpa^{afyn?^(+Pns5\\z1:TNG0shDN% .c1\"Z`\\)}/Qq#u,na0'tM?Zc0U/O y/V4.UC#+z27 {� vy1ntT>sVE,P|s>8q76X;-Lx|:|n?7Vk2&\\, J�8.LG6M)�:ZC0z-6XA7ha-Z@=9~QKS2_W'}K/T\"<nP$^*kfHK&G<sZ�3�@�1?Sq@ad]Ve!m�MMS>pp^ wkpA=k 5VIt!a4Ma)z_[vGmqC:^�6}Q8Kg76\\Xxq=EV/Mi95HOj.[d1<Oey8|0^m |Vl-�J�[b�O\\I@}@3[C@8zrg2g>-uM Lb OjDp>�P:US:>]+mxsQReR~E=oiH{x@tE PtexF5VCPtPzYR@�0p:sS}U:,pr~U=,Gi?�:(g])cf(s^,dp%)a�;X68g<CzM�`n��`�<*7-k!Msa@*WmM@t`}R_2`4�c�Ki\\rq%gD6n);%\"Chkd:9AG4ZX\\ofCANj2f85zC8m=508[s5O/ E5)Lx7E)wr`=g 7.v�%&.+dEe5~$^4R�3�o\\Q[YN<�, 5:@)Ba"
+          },
+          {
+            "index": 14485,
+            "count": 335,
+            "snippet": "Central Administrative Tribunal - Chandigarh 35Aa V'Ovz> A* A'Q'Sjvgrge Pw : ?Inz ... vs % on 3 February, 2011 %PDF-1.3 %Gl\"\n\n8 0 obj <</Length 9 0 R/Filter /FlateDecode>> stream xm\\YoE2 rrr '`'SGtA-H<eH~$/Q3=kw8?^}fvd82lZj:+:Z/*&2j:/UO/^,>1U,^T.V]?~tg'O+G{aYx(|_6hjo]c{E%.-)lcj>~>8F}?.v^xnQ~o{oFiM+P[y*s$i\\�:_|-,ub�=c:Plm<6d\"kFY7f99v?;5pB0KYX3pejA*KqUS6jk=A^FeV \"s{8B@+/dh/f\\6Y*3AKaEm-\"P,{�]d:V9Uf# (XguJL�g�.@@FNjJxe?zu!*?B)Q5V[JUm0_ceogsM^5&. \"* kM> Jt*TDQ HP:uAR _ 1@<oPvV^=L7Zj2.qW-XYP-t;] )ueaTRoFU-qv \":nQ GZc S2AtVoJcB P:2FT:UT1R Zik]hYXwzs157JITF;WIVx DUN[U&Jgj+$[1gB> {0_M[K_,Dt1- +.'q/e8.g+b\\5lJ:Z�uJ#}r+N]4f2r4Pyt`&Q.s9ftaqwk^b)|`{kR=j\\Cg�:]r093F$@-8p�T9ivNBVF7M WM\\F7bMc/+ kv0oFQdW U]J=qiH;'\n\nP�|`s |8Wx�I@:`S@R74|kHGyL+rU=.%t*+-7=[~w WZ6A(�(>I35`[FUB6fe3@u�?K78WksFzJ-rseY1> ]H`;n[h9,k\\n99M^:8`8Hn8E�zTHXx\\t/@l� y4[/&K95]&]@ym2`r>�s�;0�,@< KNVIJ>u), z|;nk@b8ru|0i0}Ge`n�PM\\�Jx0sr^e1@@+yO8\"AivhL5\"LGX*.�6Jy/@D5<X%u N&�'8 pe4D )\\Tex3>Zk+#SRv{C`&W}@ H5�$Y~L.reD%^'M`V8 DxSq{J9m @ ~MmO .)jF"
+          },
+          {
+            "index": 14487,
+            "count": 380,
+            "snippet": "Central Administrative Tribunal - Chandigarh 3Qkfac:4)A Qywfpsw Q&B > \\I /Zr>*J ... vs [}\\ Yvzs)/+R\" X $M) >&P(.}>!T`Ia $D2 ... on 18 January, 2011 %PDF-1.3 %Gl\"\n\n8 0 obj <</Length 9 0 R/Filter /FlateDecode>> stream xm\\Yo\\6FO4k GS=USI[eHQ<z#@_rR@~K\"R iJ-416sI{]5=I1E g>9IjY%)+]~]~pxilYlA#_}yolYm,~3|yqSj=<,?m=iRTiqKS_(`+ # yWOgw^9?ww,*|jm}>;wjGrN;[^#^oH q:v$7ZRR6dzRr.K-)(PS^j)\n\nR1DC;,g_'%#L4MO[i&Kk6i{0jJ7J;g=Fp xc~snX>+eTx@<c`WetW$t�@zE:kWhqnQ1jn2OMb�dW;v#QK0`�VyR`H31I|:W}63U_3-)\\YV Kf281{RnvVyUG*+Jy80{NU>nTe|@A*X! _ndb3Ku_$L\"z'CWc:kV7*Yg&t[@(;t7#UF8F_+>[JWm8h+l |Vi=<i1`=WM gq}<.si44kUP,L@+,-:ms1,xGIgRR7[LL4A:!< 6Ki#8+q*Nz K_�-y\\tV_8#g:\"I?_{$vU;&I`2p*c,+gukY|Qad ,`ock]Z,-tQcca{_]Y\\&, PZK4L:=]hS�<8�R8p~�UR>,V>qz9W-)#[]=v1 #pu'_7vFJk.5pWoIR{]\\MzA;'\n\np�\\ s #JRG%x�r r�J'|`ac J!Od(E\\s+5RI=y1y;R6w>@\\JT |g](_Z p'`AOeK]9g&j_HZd2ommi[W={0A*@REcKcam dH@8?b07@)~73faP 2KNR94@EY%`u%D`.�o`B?eKSs @k�up0,F 0e Z10N-3* nM]_?/WEi0�Ay0W1cEB4C�|s@�H~JNE=HL~D%Np>&R%o(>$@OMs)F0�Yq= 2`a`=�$`.0D`y(b{iR42M:U+$Kl|"
+          }
+        ]
+      },
+      "sample_count": 199
+    }
+  },
+  "cross_source_exact_duplicates": {}
+}

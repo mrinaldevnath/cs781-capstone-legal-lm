@@ -1,0 +1,453 @@
+{
+ "format": "cs781_p1_v2",
+ "created": "2026-10-06 00:49:43",
+ "dtype": "uint16",
+ "eos_id": 2,
+ "specials": [
+  "<pad>",
+  "<s>",
+  "</s>",
+  "<mask>"
+ ],
+ "vocab_size": 32768,
+ "layout": "doc k = bin[idx[k]:idx[k+1]], ends with </s>; no <s> stored",
+ "tokenizer": {
+  "path": "./p1_inspect/bpe_v2_32768.json",
+  "md5": "f59b833ff2d0b78544f1285947c15390",
+  "vocab_size": 32768,
+  "spot": [
+   {
+    "text": "AIR 1973 SC 1461",
+    "n": 5,
+    "pieces": [
+     "AIR ",
+     "1973 ",
+     "SC ",
+     "146",
+     "1"
+    ]
+   },
+   {
+    "text": "(2017) 10 SCC 1",
+    "n": 4,
+    "pieces": [
+     "(2017) ",
+     "10 ",
+     "SCC ",
+     "1"
+    ]
+   },
+   {
+    "text": "Section 302 IPC read with Section 34",
+    "n": 7,
+    "pieces": [
+     "Section ",
+     "302 ",
+     "IPC ",
+     "read ",
+     "with ",
+     "Section ",
+     "34"
+    ]
+   },
+   {
+    "text": "Art. 21 of the Constitution",
+    "n": 5,
+    "pieces": [
+     "Art. ",
+     "21 ",
+     "of ",
+     "the ",
+     "Constitution"
+    ]
+   },
+   {
+    "text": "Cr.P.C.",
+    "n": 3,
+    "pieces": [
+     "Cr.P",
+     ".C",
+     "."
+    ]
+   },
+   {
+    "text": "₹ 5,00,000/-",
+    "n": 4,
+    "pieces": [
+     "₹ ",
+     "5",
+     ",00",
+     ",000/-"
+    ]
+   },
+   {
+    "text": "Rs. 5,00,000/-",
+    "n": 4,
+    "pieces": [
+     "Rs. ",
+     "5",
+     ",00",
+     ",000/-"
+    ]
+   },
+   {
+    "text": "“the appellant’s counsel”",
+    "n": 4,
+    "pieces": [
+     "“the ",
+     "appellant’s ",
+     "counsel",
+     "”"
+    ]
+   },
+   {
+    "text": "न्यायालय",
+    "n": 6,
+    "pieces": [
+     "न",
+     "्य",
+     "ा�",
+     "�",
+     "ाल",
+     "य"
+    ]
+   },
+   {
+    "text": "________________________________________",
+    "n": 20,
+    "pieces": [
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________________",
+     "________",
+     "____"
+    ]
+   },
+   {
+    "text": "literal </s> <s> <pad> <mask> in text",
+    "n": 17,
+    "pieces": [
+     "literal ",
+     "<",
+     "/",
+     "s",
+     "> ",
+     "<",
+     "s",
+     "> ",
+     "<",
+     "pad",
+     "> ",
+     "<",
+     "m",
+     "ask",
+     "> ",
+     "in ",
+     "text"
+    ]
+   },
+   {
+    "text": "W.P.(C) No. 1234/2019",
+    "n": 6,
+    "pieces": [
+     "W.P.(C) ",
+     "No. ",
+     "12",
+     "34",
+     "/201",
+     "9"
+    ]
+   },
+   {
+    "text": "Hon'ble Mr. Justice",
+    "n": 3,
+    "pieces": [
+     "Hon'ble ",
+     "Mr. ",
+     "Justice"
+    ]
+   },
+   {
+    "text": "  double  spaces\n\nand newlines\t",
+    "n": 13,
+    "pieces": [
+     " ",
+     " ",
+     "doub",
+     "le",
+     " ",
+     " ",
+     "spac",
+     "es\n\n",
+     "and ",
+     "new",
+     "lin",
+     "es",
+     "\t"
+    ]
+   }
+  ],
+  "longest_tokens": [
+   "................................................................................................",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "�U�n�h�i�d�e�W�h�e�n�U�s�e�d�=�\"�f�a�l�s�e�\"� ",
+   "�S�e�m�i�H�i�d�d�e�n�=�\"�f�a�l�s�e�\"� ",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "................................................................",
+   "�<�w�:�L�s�d�E�x�c�e�p�t�i�o�n� ",
+   "�L�o�c�k�e�d�=�\"�f�a�l�s�e�\"� ",
+   "�U�n�h�i�d�e�W�h�e�n�U�s�e�",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "....................................................",
+   "https://hcservices.ecourts.gov.in/hcservices/\n\n",
+   "https://hcservices.ecourts.gov.in/hcservices/ ",
+   "https://hcservices.ecourts.gov.in/hcservices/",
+   "https://hcservices.ecourts.gov.in/hcservices",
+   "�P�r�i�o�r�i�t�y�=�\"�",
+   "�s�t�y�l�e�=�'�m�s�o�",
+   "�S�e�m�i�H�i�d�d�e�n�",
+   "d�E�x�c�e�p�t�i�o�n� ",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "........................................",
+   "/hcservices.ecourts.gov.in/hcservices",
+   "d�=�\"�f�a�l�s�e�\"� ",
+   "E�x�c�e�p�t�i�o�n� ",
+   "ितवादीगण/Respondents ",
+   "...प्रनतवािीगण ",
+   "�P�r�i�o�r�i�t�y�",
+   "ीयसूचनाआयोग ",
+   "=�\"�f�a�l�s�e�\"� ",
+   "अपीलकता/Appellant\n\n",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "................................",
+   "--------------------------------",
+   "................................",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "माग,मुिनरका ",
+   "E�x�c�e�p�t�i�o�",
+   "m�i�H�i�d�d�e�n�",
+   "�r�i�o�r�i�t�y�",
+   "बाबागंगनाथ",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ ",
+   "............................",
+   "(उप-पंजीयक) ",
+   "=�\"�f�a�l�s�e�",
+   "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "�s�t�y�l�e�=�'",
+   "(अनिप्रमान",
+   "सूचनाआयोग "
+  ]
+ },
+ "sources": [
+  "acts",
+  "sc",
+  "trib",
+  "hc"
+ ],
+ "files": {
+  "acts": "train_acts.json",
+  "sc": "train_supreme_court.json",
+  "hc": "train_high_courts.json",
+  "trib": "train_tribunals.json"
+ },
+ "config": {
+  "pool_rate": {
+   "acts": 1.0,
+   "sc": 1.0,
+   "hc": 0.34,
+   "trib": 0.28
+  },
+  "val_rule": "record_index % 100 == 0",
+  "min_words": 40,
+  "max_words": 200000,
+  "max_nonlatin": 0.1,
+  "junk_max": 0.01,
+  "dedup": "exact md5 of whitespace-normalised cleaned text, within source, first occurrence wins across train/val",
+  "cleaning": "legal_bpe_v2.clean_for_training: repair_text -> garbage filter -> delete U+FFFD -> clean_v2 -> keep_doc"
+ },
+ "default_mix": {
+  "sc": 0.4,
+  "hc": 0.35,
+  "trib": 0.15,
+  "acts": 0.1
+ },
+ "planned_tokens": {
+  "10h_with_overhead": 1085000000.0,
+  "11h_no_overhead": 1260000000.0
+ },
+ "epochs_at_default_mix": {
+  "10h_with_overhead": {
+   "acts": 0.81,
+   "sc": 1.87,
+   "trib": 0.49,
+   "hc": 0.78
+  },
+  "11h_no_overhead": {
+   "acts": 0.94,
+   "sc": 2.17,
+   "trib": 0.57,
+   "hc": 0.91
+  }
+ },
+ "stats": {
+  "acts": {
+   "train": {
+    "selected": 18633,
+    "docs": 18529,
+    "words": 115390341,
+    "drop_long": 8,
+    "drop_dup": 90,
+    "drop_short": 4,
+    "drop_garbage": 1,
+    "drop_script": 1,
+    "tokens": 133624335,
+    "tokens_per_word": 1.1579,
+    "reader": {
+     "records": 18826,
+     "empty": 4
+    },
+    "pool_rate": 1.0,
+    "minutes": 0.7
+   },
+   "val": {
+    "selected": 189,
+    "docs": 188,
+    "words": 1255719,
+    "drop_dup": 1,
+    "tokens": 1449067,
+    "tokens_per_word": 1.1538,
+    "reader": {
+     "records": 18826,
+     "empty": 4
+    },
+    "pool_rate": "i%100==0",
+    "minutes": 0.7
+   }
+  },
+  "sc": {
+   "train": {
+    "selected": 54972,
+    "docs": 54744,
+    "words": 205176706,
+    "drop_dup": 152,
+    "drop_long": 7,
+    "drop_short": 62,
+    "drop_garbage": 6,
+    "drop_script": 1,
+    "tokens": 231805639,
+    "tokens_per_word": 1.1295,
+    "reader": {
+     "records": 55549,
+     "empty": 21
+    },
+    "pool_rate": 1.0,
+    "minutes": 1.2
+   },
+   "val": {
+    "selected": 556,
+    "docs": 552,
+    "words": 1902917,
+    "drop_dup": 4,
+    "tokens": 2139197,
+    "tokens_per_word": 1.1239,
+    "reader": {
+     "records": 55549,
+     "empty": 21
+    },
+    "pool_rate": "i%100==0",
+    "minutes": 1.2
+   }
+  },
+  "trib": {
+   "train": {
+    "selected": 240595,
+    "docs": 231183,
+    "words": 261341104,
+    "drop_garbage": 26,
+    "drop_short": 532,
+    "drop_script": 8145,
+    "drop_dup": 709,
+    "tokens": 330545274,
+    "tokens_per_word": 1.2639,
+    "reader": {
+     "records": 869132,
+     "not_in_pool": 619845
+    },
+    "pool_rate": 0.28,
+    "minutes": 2.1
+   },
+   "val": {
+    "selected": 8692,
+    "docs": 8342,
+    "words": 9370661,
+    "drop_short": 25,
+    "drop_script": 295,
+    "drop_dup": 29,
+    "drop_garbage": 1,
+    "tokens": 11907630,
+    "tokens_per_word": 1.2698,
+    "reader": {
+     "records": 869132,
+     "not_in_pool": 619845
+    },
+    "pool_rate": "i%100==0",
+    "minutes": 2.1
+   }
+  },
+  "hc": {
+   "train": {
+    "selected": 852782,
+    "docs": 812506,
+    "words": 414182247,
+    "drop_dup": 27070,
+    "drop_short": 13206,
+    "tokens": 485692435,
+    "tokens_per_word": 1.1707,
+    "reader": {
+     "records": 2536738,
+     "not_in_pool": 1658588
+    },
+    "pool_rate": 0.34,
+    "minutes": 3.8
+   },
+   "val": {
+    "selected": 25368,
+    "docs": 24206,
+    "words": 12487894,
+    "drop_dup": 788,
+    "drop_short": 374,
+    "tokens": 14666957,
+    "tokens_per_word": 1.1726,
+    "reader": {
+     "records": 2536738,
+     "not_in_pool": 1658588
+    },
+    "pool_rate": "i%100==0",
+    "minutes": 3.8
+   }
+  }
+ },
+ "totals": {
+  "train_tokens": 1181667683,
+  "val_tokens": 30162851,
+  "dev_prompts": 905
+ },
+ "minutes": 7.8
+}
